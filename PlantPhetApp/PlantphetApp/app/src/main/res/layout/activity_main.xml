@@ -17,7 +17,7 @@
         android:fontFamily="@font/sriracharegular"
         android:textColor="#fff"
         />
-    <ImageView
+    <ImageButton
         android:id="@+id/priceicon"
         android:layout_width="148dp"
         android:layout_height="151dp"
@@ -25,7 +25,7 @@
         android:layout_marginLeft="30dp"
         android:background="@color/colorPrimary"
         />
-    <ImageView
+    <ImageButton
         android:id="@+id/profileicon"
         android:layout_width="148dp"
         android:layout_height="151dp"
@@ -33,7 +33,7 @@
         android:layout_marginLeft="30dp"
         android:background="#000"
         />
-    <ImageView
+    <ImageButton
         android:id="@+id/mapicon"
         android:layout_width="148dp"
         android:layout_height="151dp"
@@ -41,7 +41,7 @@
         android:layout_marginLeft="200dp"
         android:background="@color/colorAccent"
         />
-    <ImageView
+    <ImageButton
         android:id="@+id/faqicon"
         android:layout_width="148dp"
         android:layout_height="151dp"

@@ -7,6 +7,7 @@
     android:background="@drawable/bg"
     tools:context="com.example.ploychanok.plantphetapp.MainActivity">
 
+
     <ImageView
         android:id="@+id/top"
         android:layout_width="280dp"
@@ -80,7 +81,7 @@
         android:layout_below="@+id/text"
         />
     <TextView
-        android:id="@+id/lisytext1"
+        android:id="@+id/listtext1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ข้าวโพดเลี้ยงสัตว์"
@@ -91,7 +92,7 @@
         android:layout_marginTop="220dp"
         />
     <TextView
-        android:id="@+id/lisysubtext1"
+        android:id="@+id/listsubtext1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="หน่วยบาท/กก."
@@ -102,6 +103,7 @@
         android:layout_marginTop="255dp"
         />
     <TextView
+        android:id="@+id/listprice1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="6.04"
@@ -122,7 +124,7 @@
         android:layout_below="@+id/list1"
         />
     <TextView
-        android:id="@+id/lisytext2"
+        android:id="@+id/listtext2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ข้าวเหนียว"
@@ -133,7 +135,7 @@
         android:layout_marginTop="320dp"
         />
     <TextView
-        android:id="@+id/lisysubtext2"
+        android:id="@+id/listsubtext2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="หน่วยบาท/ตัน"
@@ -143,16 +145,18 @@
         android:layout_marginLeft="35dp"
         android:layout_marginTop="355dp"
         />
+
     <TextView
+        android:id="@+id/listprice2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="9,137.00"
+        android:layout_alignBaseline="@+id/listtext2"
+        android:layout_alignBottom="@+id/listtext2"
+        android:layout_alignEnd="@+id/list2"
         android:fontFamily="@font/athitiregular"
+        android:text="9,137.00"
         android:textColor="#CE0000"
-        android:textSize="30dp"
-        android:layout_marginLeft="240dp"
-        android:layout_marginTop="315dp"
-        />
+        android:textSize="30dp" />
 
     <ImageView
         android:id="@+id/list3"

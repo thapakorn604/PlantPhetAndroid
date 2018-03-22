@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.example.ploychanok.plantphetapp.MainActivity">
+
+    <TextView
+        android:id="@+id/logo"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="PlantPhet"
+        android:textSize="50dp"
+        android:fontFamily="@font/sriracharegular"
+        android:textColor="#fff"
+        />
+    <ImageView
+        android:id="@+id/priceicon"
+        android:layout_width="148dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/colorPrimary"
+        />
+    <ImageView
+        android:id="@+id/profileicon"
+        android:layout_width="148dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="30dp"
+        android:background="#000"
+        />
+    <ImageView
+        android:id="@+id/mapicon"
+        android:layout_width="148dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginLeft="200dp"
+        android:background="@color/colorAccent"
+        />
+    <ImageView
+        android:id="@+id/faqicon"
+        android:layout_width="148dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="200dp"
+        android:background="#eee"
+        />
+
+    <TextView
+        android:id="@+id/resigter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp"
+        android:fontFamily="@font/athitiregular"
+        android:text="สมัครสมาชิก"
+        android:textColor="#707070"
+        android:textSize="15dp" />
+
+</RelativeLayout>

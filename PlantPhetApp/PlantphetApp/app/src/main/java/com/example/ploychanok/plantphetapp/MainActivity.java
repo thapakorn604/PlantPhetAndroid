@@ -6,9 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.Toast;
-
-import java.sql.SQLOutput;
 
 public class MainActivity extends AppCompatActivity {
     ImageButton priceIcon;
@@ -29,7 +26,8 @@ public class MainActivity extends AppCompatActivity {
         priceIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(MainActivity.this,PriceActivity.class);
+                startActivity(intent);
 
             }
 

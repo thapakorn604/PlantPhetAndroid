@@ -4,7 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
+    android:background="@drawable/background"
     tools:context="com.example.ploychanok.plantphetapp.MainActivity">
 
     <TextView
@@ -17,13 +17,16 @@
         android:fontFamily="@font/sriracharegular"
         android:textColor="#fff"
         />
+
     <ImageButton
         android:id="@+id/priceicon"
         android:layout_width="148dp"
         android:layout_height="151dp"
         android:layout_marginTop="115dp"
         android:layout_marginLeft="30dp"
-        android:background="@color/colorPrimary"
+        android:background="@drawable/button1"
+        android:elevation="10dp"
+        android:translationZ="10dp"
         />
     <ImageButton
         android:id="@+id/profileicon"

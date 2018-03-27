@@ -1,8 +1,14 @@
 package com.example.ploychanok.plantphetfarmer;
 
+import android.Manifest;
+import android.app.Activity;
 import android.content.Context;
+import android.content.pm.PackageManager;
+import android.location.Location;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 
 import org.osmdroid.api.IMapController;
@@ -15,15 +21,16 @@ import org.osmdroid.views.overlay.mylocation.MyLocationNewOverlay;
 
 
 public class MapActivity extends AppCompatActivity {
+
     MyLocationNewOverlay mLocationOverlay;
     MapView map = null;
     Context context;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
 
-    
+
+        super.onCreate(savedInstanceState);
         Context ctx = getApplicationContext();
         Configuration.getInstance().load(ctx, PreferenceManager.getDefaultSharedPreferences(ctx));
 
@@ -35,12 +42,14 @@ public class MapActivity extends AppCompatActivity {
         map.setMultiTouchControls(true);
         IMapController mapController = map.getController();
         mapController.setZoom(10.2);
-        GeoPoint startPoint = new GeoPoint(	18.796143, 98.979263);
+
+        GeoPoint startPoint = new GeoPoint(18.796143, 98.979263);
         mapController.setCenter(startPoint);
 
         this.mLocationOverlay = new MyLocationNewOverlay(new GpsMyLocationProvider(getApplicationContext()), map);
         this.mLocationOverlay.enableMyLocation();
         map.getOverlays().add(this.mLocationOverlay);
+
 
 
     }

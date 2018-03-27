@@ -53,6 +53,7 @@
             android:layout_height="160dp"
             android:background="@drawable/button_home"
             android:layout_toRightOf="@id/profile"
+            android:id="@+id/faq"
             android:layout_margin="10dp"
             android:layout_below="@id/map"/>
 

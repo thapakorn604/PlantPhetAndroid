@@ -7,6 +7,7 @@ import android.content.pm.PackageManager;
 import android.location.Location;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.provider.SyncStateContract;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -16,6 +17,7 @@ import org.osmdroid.config.Configuration;
 import org.osmdroid.tileprovider.tilesource.TileSourceFactory;
 import org.osmdroid.util.GeoPoint;
 import org.osmdroid.views.MapView;
+import org.osmdroid.views.overlay.Marker;
 import org.osmdroid.views.overlay.mylocation.GpsMyLocationProvider;
 import org.osmdroid.views.overlay.mylocation.MyLocationNewOverlay;
 
@@ -44,11 +46,15 @@ public class MapActivity extends AppCompatActivity {
         mapController.setZoom(10.2);
 
         GeoPoint startPoint = new GeoPoint(18.796143, 98.979263);
+
+        addMarker(startPoint);
         mapController.setCenter(startPoint);
 
-        this.mLocationOverlay = new MyLocationNewOverlay(new GpsMyLocationProvider(getApplicationContext()), map);
-        this.mLocationOverlay.enableMyLocation();
-        map.getOverlays().add(this.mLocationOverlay);
+
+
+//        this.mLocationOverlay = new MyLocationNewOverlay(new GpsMyLocationProvider(getApplicationContext()), map);
+//        this.mLocationOverlay.enableMyLocation();
+//        map.getOverlays().add(this.mLocationOverlay);
 
 
 
@@ -71,5 +77,17 @@ public class MapActivity extends AppCompatActivity {
         //Configuration.getInstance().save(this, prefs);
         map.onPause();  //needed for compass, my location overlays, v6.0.0 and up
     }
+    public void addMarker(GeoPoint startPoint){
+        Marker marker = new Marker(map);
+        marker.setPosition(startPoint);
+        marker.setAnchor(Marker.ANCHOR_CENTER,Marker.ANCHOR_BOTTOM);
+        marker.setIcon(getResources().getDrawable(R.mipmap.pic));
+        marker.setTitle("Your Current Location");
+        map.getOverlays().add(marker);
+
+
+
+    }
+
 
 }

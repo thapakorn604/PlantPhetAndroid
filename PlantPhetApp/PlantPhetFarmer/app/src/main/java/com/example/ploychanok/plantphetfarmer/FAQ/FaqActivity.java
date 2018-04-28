@@ -1,10 +1,12 @@
-package com.example.ploychanok.plantphetfarmer;
+package com.example.ploychanok.plantphetfarmer.FAQ;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.example.ploychanok.plantphetfarmer.R;
 
 /**
  * Created by MSI Raider on 27/3/2561.

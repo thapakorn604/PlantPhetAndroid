@@ -1,10 +1,15 @@
-package com.example.ploychanok.plantphetfarmer;
+package com.example.ploychanok.plantphetfarmer.Price;
 
-import android.media.Image;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
+
+import com.example.ploychanok.plantphetfarmer.R;
+
+import java.util.Calendar;
 
 /**
  * Created by MSI Raider on 27/3/2561.
@@ -12,8 +17,8 @@ import android.widget.TextView;
 
 public class PriceActivity extends AppCompatActivity {
     ImageButton top, buttonlist1, buttonlist2, buttonlist3;
-    TextView homesubtext1, hometext, homeprice, homesubtext2, text, listprice2, listsubtext3, footer;
-    TextView listtext1, listsubtext1, listprice1, listtext2, listsubtext2, listtext3, listprice3;
+    public static TextView homesubtext1, hometext, homeprice, homesubtext2, text, listprice2, listsubtext3, footer;
+    public static TextView listtext1, listsubtext1, listprice1, listtext2, listsubtext2, listtext3, listprice3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +43,25 @@ public class PriceActivity extends AppCompatActivity {
         listsubtext3 = (TextView) findViewById(R.id.listsubtext3);
         listprice3 = (TextView) findViewById(R.id.listprice3);
         footer = (TextView) findViewById(R.id.footer);
-
-
+//        --------------------------Retrieve Data--------------------
+        fetchCassavaData process = new fetchCassavaData();
+        process.execute();
+        fetchRiceData process1 = new fetchRiceData();
+        process1.execute();
+        fetchStickyRice process2 = new fetchStickyRice();
+        process2.execute();
+        fetchCornData process3 = new fetchCornData();
+        process3.execute();
+//        -----------------------------Get Currenttime-----------------
+        String currentTime = String.valueOf(Calendar.getInstance().getTime());
+        currentTime = currentTime.toString();
+        text.setText(currentTime);
+        buttonlist1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(PriceActivity.this,ChartActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

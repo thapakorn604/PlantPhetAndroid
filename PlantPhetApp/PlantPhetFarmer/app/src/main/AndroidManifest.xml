@@ -26,18 +26,21 @@
         </activity>
 
         <activity
-            android:name=".FaqActivity"
+            android:name=".FAQ.FaqActivity"
             android:background="@drawable/background"
             android:label="Faq" />
 
         <activity
-            android:name=".MapActivity"
+            android:name=".Map.MapActivity"
             android:label="Map" />
 
         <activity
-            android:name=".PriceActivity"
+            android:name=".Price.PriceActivity"
             android:background="@drawable/background"
             android:label="Price" />
+        <activity android:name=".Price.ChartActivity"
+            android:background="@drawable/background"
+            android:label="Chart" />
 
 
     </application>

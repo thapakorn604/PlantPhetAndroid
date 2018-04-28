@@ -5,8 +5,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.ploychanok.plantphetfarmer.FAQ.FaqActivity;
+import com.example.ploychanok.plantphetfarmer.Map.MapActivity;
+import com.example.ploychanok.plantphetfarmer.Price.PriceActivity;
 
 public class MainActivity extends AppCompatActivity {
     TextView logo;

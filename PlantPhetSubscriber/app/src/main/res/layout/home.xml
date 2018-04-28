@@ -54,7 +54,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginRight="15dp"
                 android:layout_marginLeft="15dp"
-                android:background="@drawable/ic_compass"
+                android:background="@drawable/ic_map"
                 />
             <TextView
                 android:layout_width="wrap_content"

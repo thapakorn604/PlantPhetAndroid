@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/box"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/shadow" />
+
+        <TextView
+            android:id="@+id/text_mapsetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/athitiregular"
+            android:text="เลือกดูประเภทของแผนที่" />
+
+        <CheckBox
+            android:id="@+id/checkbox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_mapsetting"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/athitiregular"
+            android:text="title 1" />
+
+        <CheckBox
+            android:id="@+id/checkbox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/checkbox1"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/athitiregular"
+            android:text="title 2" />
+
+        <CheckBox
+            android:id="@+id/checkbox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/checkbox2"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/athitiregular"
+            android:text="title 3" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -7,6 +7,11 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
+import com.example.ploychanok.plantphetfarmer.Price.Chart.Cassava_Price_Chart;
+import com.example.ploychanok.plantphetfarmer.Price.DataFetching.fetchCassavaData;
+import com.example.ploychanok.plantphetfarmer.Price.DataFetching.fetchCornData;
+import com.example.ploychanok.plantphetfarmer.Price.DataFetching.fetchRiceData;
+import com.example.ploychanok.plantphetfarmer.Price.DataFetching.fetchStickyRice;
 import com.example.ploychanok.plantphetfarmer.R;
 
 import java.util.Calendar;
@@ -19,6 +24,7 @@ public class PriceActivity extends AppCompatActivity {
     ImageButton top, buttonlist1, buttonlist2, buttonlist3;
     public static TextView homesubtext1, hometext, homeprice, homesubtext2, text, listprice2, listsubtext3, footer;
     public static TextView listtext1, listsubtext1, listprice1, listtext2, listsubtext2, listtext3, listprice3;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,11 +50,11 @@ public class PriceActivity extends AppCompatActivity {
         listprice3 = (TextView) findViewById(R.id.listprice3);
         footer = (TextView) findViewById(R.id.footer);
 //        --------------------------Retrieve Data--------------------
-        fetchCassavaData process = new fetchCassavaData();
+        final fetchCassavaData process = new fetchCassavaData();
         process.execute();
         fetchRiceData process1 = new fetchRiceData();
         process1.execute();
-        fetchStickyRice process2 = new fetchStickyRice();
+        final fetchStickyRice process2 = new fetchStickyRice();
         process2.execute();
         fetchCornData process3 = new fetchCornData();
         process3.execute();
@@ -59,8 +65,11 @@ public class PriceActivity extends AppCompatActivity {
         buttonlist1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(PriceActivity.this,ChartActivity.class);
+
+                Intent intent = new Intent(PriceActivity.this, Cassava_Price_Chart.class);
                 startActivity(intent);
+
+
             }
         });
     }

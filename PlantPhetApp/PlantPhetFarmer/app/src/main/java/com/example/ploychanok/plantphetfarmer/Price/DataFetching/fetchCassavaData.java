@@ -1,6 +1,8 @@
-package com.example.ploychanok.plantphetfarmer.Price;
+package com.example.ploychanok.plantphetfarmer.Price.DataFetching;
 
 import android.os.AsyncTask;
+
+import com.example.ploychanok.plantphetfarmer.Price.PriceActivity;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -13,20 +15,21 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.ArrayList;
 
-public class fetchCornData extends AsyncTask<Void,Void,Void> {
-    String data = "";
-    String month = "";
-    Double cornPrice = 0.0;
-    String year = "";
-    String cornNew = "";
-
+public class fetchCassavaData extends AsyncTask<Void, Void, Void> {
+    public static String data = "";
+    public static String month = "";
+    public static Double cassavaPrice = 0.0;
+    public static String year = "";
+    public static String cassavaNew = "";
+    public static ArrayList cassavaList = new ArrayList();
 
 
     @Override
     protected Void doInBackground(Void... voids) {
         try {
-            URL url = new URL("https://api.myjson.com/bins/kzfzb");
+            URL url = new URL("https://api.myjson.com/bins/d6nyf");
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
@@ -40,10 +43,12 @@ public class fetchCornData extends AsyncTask<Void,Void,Void> {
             JSONArray JA = new JSONArray(data);
             for (int i = 0; i < JA.length(); i++) {
                 JSONObject JO = (JSONObject) JA.get(i);
-                cornPrice = (Double) JO.get("corn_price");
-                cornNew = cornPrice.toString();
+                cassavaPrice = (Double) JO.get("cassava_price");
+                cassavaNew = cassavaPrice.toString();
+                cassavaList.add(cassavaNew);
 
             }
+            System.out.println("Cassava:"+cassavaList);
 
         } catch (MalformedURLException e) {
             e.printStackTrace();
@@ -59,9 +64,7 @@ public class fetchCornData extends AsyncTask<Void,Void,Void> {
     @Override
     protected void onPostExecute(Void aVoid) {
         super.onPostExecute(aVoid);
-        PriceActivity.listprice1.setText(cornNew);
+        PriceActivity.homeprice.setText(cassavaNew);
     }
 
 }
-
-

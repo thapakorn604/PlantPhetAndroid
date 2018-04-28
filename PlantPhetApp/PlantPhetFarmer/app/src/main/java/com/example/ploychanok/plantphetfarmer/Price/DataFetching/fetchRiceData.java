@@ -1,6 +1,8 @@
-package com.example.ploychanok.plantphetfarmer.Price;
+package com.example.ploychanok.plantphetfarmer.Price.DataFetching;
 
 import android.os.AsyncTask;
+
+import com.example.ploychanok.plantphetfarmer.Price.PriceActivity;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -13,19 +15,22 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.ArrayList;
 
-public class fetchStickyRice extends AsyncTask<Void, Void, Void> {
+public class fetchRiceData extends AsyncTask<Void, Void, Void> {
     String data = "";
     String month = "";
     String year = "";
-    Double stickyricePrice = 0.0;
-    String stickyriceNew = "";
+    Double ricePrice = 0.0;
+    String riceNew = "";
+    ArrayList riceList = new ArrayList();
+
 
 
     @Override
     protected Void doInBackground(Void... voids) {
         try {
-            URL url = new URL("https://api.myjson.com/bins/1h2phj");
+            URL url = new URL("https://api.myjson.com/bins/mngh3");
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
@@ -39,9 +44,11 @@ public class fetchStickyRice extends AsyncTask<Void, Void, Void> {
             JSONArray JA = new JSONArray(data);
             for (int i = 0; i < JA.length(); i++) {
                 JSONObject JO = (JSONObject) JA.get(i);
-                stickyricePrice = (Double) JO.get("sticky_price");
-                stickyriceNew = stickyricePrice.toString();
+                ricePrice = (Double) JO.get("rice_price");
+                riceNew = ricePrice.toString();
+                riceList.add(riceNew);
             }
+            System.out.println("Jasmine rice:"+riceList);
 
         } catch (MalformedURLException e) {
             e.printStackTrace();
@@ -57,7 +64,9 @@ public class fetchStickyRice extends AsyncTask<Void, Void, Void> {
     @Override
     protected void onPostExecute(Void aVoid) {
         super.onPostExecute(aVoid);
-        PriceActivity.listprice2.setText(stickyriceNew);
+        PriceActivity.listprice3.setText(riceNew);
     }
 
 }
+
+

@@ -1,6 +1,8 @@
-package com.example.ploychanok.plantphetfarmer.Price;
+package com.example.ploychanok.plantphetfarmer.Price.DataFetching;
 
 import android.os.AsyncTask;
+
+import com.example.ploychanok.plantphetfarmer.Price.PriceActivity;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -13,19 +15,22 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.ArrayList;
 
-public class fetchRiceData extends AsyncTask<Void, Void, Void> {
+public class fetchCornData extends AsyncTask<Void,Void,Void> {
     String data = "";
     String month = "";
+    Double cornPrice = 0.0;
     String year = "";
-    Double ricePrice = 0.0;
-    String riceNew = "";
+    String cornNew = "";
+    ArrayList cornList = new ArrayList();
+
 
 
     @Override
     protected Void doInBackground(Void... voids) {
         try {
-            URL url = new URL("https://api.myjson.com/bins/mngh3");
+            URL url = new URL("https://api.myjson.com/bins/kzfzb");
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
@@ -39,9 +44,11 @@ public class fetchRiceData extends AsyncTask<Void, Void, Void> {
             JSONArray JA = new JSONArray(data);
             for (int i = 0; i < JA.length(); i++) {
                 JSONObject JO = (JSONObject) JA.get(i);
-                ricePrice = (Double) JO.get("rice_price");
-                riceNew = ricePrice.toString();
+                cornPrice = (Double) JO.get("corn_price");
+                cornNew = cornPrice.toString();
+                cornList.add(cornNew);
             }
+            System.out.println("Corn:"+cornList);
 
         } catch (MalformedURLException e) {
             e.printStackTrace();
@@ -57,7 +64,7 @@ public class fetchRiceData extends AsyncTask<Void, Void, Void> {
     @Override
     protected void onPostExecute(Void aVoid) {
         super.onPostExecute(aVoid);
-        PriceActivity.listprice3.setText(riceNew);
+        PriceActivity.listprice1.setText(cornNew);
     }
 
 }

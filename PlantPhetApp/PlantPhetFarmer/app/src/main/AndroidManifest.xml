@@ -38,7 +38,7 @@
             android:name=".Price.PriceActivity"
             android:background="@drawable/background"
             android:label="Price" />
-        <activity android:name=".Price.ChartActivity"
+        <activity android:name=".Price.Chart.Cassava_Price_Chart"
             android:background="@drawable/background"
             android:label="Chart" />
 

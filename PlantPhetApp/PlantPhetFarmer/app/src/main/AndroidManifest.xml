@@ -8,6 +8,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
     <uses-feature android:name="android.hardware.location.gps" />
 
     <application
@@ -38,9 +39,10 @@
             android:name=".Price.PriceActivity"
             android:background="@drawable/background"
             android:label="Price" />
-        <activity android:name=".Price.Chart.Cassava_Price_Chart"
-            android:background="@drawable/background"
-            android:label="Chart" />
+        <activity android:name=".Price.Chart.Cassava_Price_Chart"></activity>
+        <activity android:name=".Price.Chart.StickyRice_Price_Chart"></activity>
+        <activity android:name=".Price.Chart.Rice_Price_Chart"></activity>
+        <activity android:name=".Price.Chart.Corn_Price_Chart"></activity>
 
 
     </application>

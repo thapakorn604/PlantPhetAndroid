@@ -23,7 +23,7 @@ public class fetchStickyRice extends AsyncTask<Void, Void, Void> {
     String year = "";
     Double stickyricePrice = 0.0;
     String stickyriceNew = "";
-    ArrayList stickyList = new ArrayList();
+    public static ArrayList stickyList = new ArrayList();
 
 
     @Override

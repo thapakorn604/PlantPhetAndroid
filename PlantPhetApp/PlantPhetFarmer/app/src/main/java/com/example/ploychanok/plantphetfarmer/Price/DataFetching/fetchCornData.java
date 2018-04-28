@@ -23,7 +23,7 @@ public class fetchCornData extends AsyncTask<Void,Void,Void> {
     Double cornPrice = 0.0;
     String year = "";
     String cornNew = "";
-    ArrayList cornList = new ArrayList();
+    public static ArrayList cornList = new ArrayList();
 
 
 

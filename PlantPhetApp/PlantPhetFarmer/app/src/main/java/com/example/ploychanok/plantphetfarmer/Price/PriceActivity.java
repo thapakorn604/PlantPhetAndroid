@@ -8,6 +8,9 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.example.ploychanok.plantphetfarmer.Price.Chart.Cassava_Price_Chart;
+import com.example.ploychanok.plantphetfarmer.Price.Chart.Corn_Price_Chart;
+import com.example.ploychanok.plantphetfarmer.Price.Chart.Rice_Price_Chart;
+import com.example.ploychanok.plantphetfarmer.Price.Chart.StickyRice_Price_Chart;
 import com.example.ploychanok.plantphetfarmer.Price.DataFetching.fetchCassavaData;
 import com.example.ploychanok.plantphetfarmer.Price.DataFetching.fetchCornData;
 import com.example.ploychanok.plantphetfarmer.Price.DataFetching.fetchRiceData;
@@ -66,10 +69,31 @@ public class PriceActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(PriceActivity.this, Cassava_Price_Chart.class);
+                Intent intent = new Intent(PriceActivity.this, Corn_Price_Chart.class);
                 startActivity(intent);
 
 
+            }
+        });
+        homeprice.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(PriceActivity.this,Cassava_Price_Chart.class);
+                startActivity(intent);
+            }
+        });
+        buttonlist2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(PriceActivity.this, StickyRice_Price_Chart.class);
+                startActivity(intent);
+            }
+        });
+        buttonlist3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(PriceActivity.this, Rice_Price_Chart.class);
+                startActivity(intent);
             }
         });
     }

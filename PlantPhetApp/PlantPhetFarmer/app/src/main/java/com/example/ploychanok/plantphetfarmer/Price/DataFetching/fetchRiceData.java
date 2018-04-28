@@ -23,7 +23,7 @@ public class fetchRiceData extends AsyncTask<Void, Void, Void> {
     String year = "";
     Double ricePrice = 0.0;
     String riceNew = "";
-    ArrayList riceList = new ArrayList();
+    public static ArrayList riceList = new ArrayList();
 
 
 

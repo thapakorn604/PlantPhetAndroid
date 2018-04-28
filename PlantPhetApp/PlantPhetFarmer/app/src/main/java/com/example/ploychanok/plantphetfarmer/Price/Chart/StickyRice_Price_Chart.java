@@ -1,7 +1,6 @@
 package com.example.ploychanok.plantphetfarmer.Price.Chart;
 
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
@@ -14,6 +13,7 @@ import com.anychart.anychart.EnumsAnchor;
 import com.anychart.anychart.HoverMode;
 import com.anychart.anychart.Position;
 import com.anychart.anychart.TooltipPositionMode;
+import com.anychart.anychart.ValueDataEntry;
 import com.example.ploychanok.plantphetfarmer.R;
 
 import java.util.ArrayList;
@@ -33,6 +33,15 @@ public class StickyRice_Price_Chart extends AppCompatActivity {
         Cartesian cartesian = AnyChart.column();
 
         List<DataEntry> data = new ArrayList<>();
+        data.add(new ValueDataEntry("Rouge", 80540));
+        data.add(new ValueDataEntry("Foundation", 94190));
+        data.add(new ValueDataEntry("Mascara", 102610));
+        data.add(new ValueDataEntry("Lip gloss", 110430));
+        data.add(new ValueDataEntry("Lipstick", 128000));
+        data.add(new ValueDataEntry("Nail polish", 143760));
+        data.add(new ValueDataEntry("Eyebrow pencil", 170670));
+        data.add(new ValueDataEntry("Eyeliner", 213210));
+        data.add(new ValueDataEntry("Eyeshadows", 249980));
 
 
         CartesianSeriesColumn column = cartesian.column(data);

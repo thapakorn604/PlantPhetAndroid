@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background"
     android:layout_centerVertical="true"
-    tools:context="com.example.ploychanok.plantphetsubscriber.MainActivity">
+    tools:context="com.example.ploychanok.plantphetsubscriber.homeActivity">
 
     <RelativeLayout
         android:layout_width="wrap_content"

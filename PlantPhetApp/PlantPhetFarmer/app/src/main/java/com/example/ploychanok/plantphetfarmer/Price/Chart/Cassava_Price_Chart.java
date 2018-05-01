@@ -34,15 +34,15 @@ public class Cassava_Price_Chart extends AppCompatActivity {
 
         List<DataEntry> data = new ArrayList<>();
 
-        data.add(new ValueDataEntry("Rouge", 80540));
-        data.add(new ValueDataEntry("Foundation", 94190));
-        data.add(new ValueDataEntry("Mascara", 102610));
-        data.add(new ValueDataEntry("Lip gloss", 110430));
-        data.add(new ValueDataEntry("Lipstick", 128000));
-        data.add(new ValueDataEntry("Nail polish", 143760));
-        data.add(new ValueDataEntry("Eyebrow pencil", 170670));
-        data.add(new ValueDataEntry("Eyeliner", 213210));
-        data.add(new ValueDataEntry("Eyeshadows", 249980));
+        data.add(new ValueDataEntry("มกราคม", 8000));
+        data.add(new ValueDataEntry("กุมภาพันธ์", 9000));
+        data.add(new ValueDataEntry("มีนาคม", 10000));
+        data.add(new ValueDataEntry("เมษายน", 9500));
+        data.add(new ValueDataEntry("พฤษภาคม", 12800));
+        data.add(new ValueDataEntry("มิถุนายน", 14376));
+        data.add(new ValueDataEntry("กรกฎาคม", 10067));
+        data.add(new ValueDataEntry("สิงหาคม", 13500));
+        data.add(new ValueDataEntry("กันยายน", 85000));
 
         CartesianSeriesColumn column = cartesian.column(data);
 
@@ -55,7 +55,7 @@ public class Cassava_Price_Chart extends AppCompatActivity {
                 .setFormat("${%Value}{groupsSeparator: }");
 
         cartesian.setAnimation(true);
-        cartesian.setTitle("Cassava_Price_Chart");
+        cartesian.setTitle("ข้าวหอมมะลิ");
 
         cartesian.getYScale().setMinimum(0d);
 
@@ -64,8 +64,8 @@ public class Cassava_Price_Chart extends AppCompatActivity {
         cartesian.getTooltip().setPositionMode(TooltipPositionMode.POINT);
         cartesian.getInteractivity().setHoverMode(HoverMode.BY_X);
 
-        cartesian.getXAxis().setTitle("Price");
-        cartesian.getYAxis().setTitle("Month");
+        cartesian.getXAxis().setTitle("เดือน");
+        cartesian.getYAxis().setTitle("ราคา");
 
         anyChartView.setChart(cartesian);
     }

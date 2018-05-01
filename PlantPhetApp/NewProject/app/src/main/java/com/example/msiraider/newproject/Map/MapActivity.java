@@ -28,6 +28,7 @@ import org.osmdroid.events.ZoomEvent;
 import org.osmdroid.tileprovider.tilesource.TileSourceFactory;
 import org.osmdroid.util.GeoPoint;
 import org.osmdroid.views.MapView;
+import org.osmdroid.views.overlay.Marker;
 import org.osmdroid.views.overlay.compass.CompassOverlay;
 import org.osmdroid.views.overlay.mylocation.IMyLocationProvider;
 import org.osmdroid.views.overlay.mylocation.MyLocationNewOverlay;
@@ -130,7 +131,7 @@ public class MapActivity extends AppCompatActivity implements GoogleApiClient.Co
         mapView.getController().setZoom(15.0);
         mapView.setTileSource(TileSourceFactory.DEFAULT_TILE_SOURCE);
         MyLocationNewOverlay oMapLocationOverlay = new MyLocationNewOverlay(mapView);
-//        mapView.getOverlays().add(oMapLocationOverlay);
+        mapView.getOverlays().add(oMapLocationOverlay);
         oMapLocationOverlay.enableFollowLocation();
         oMapLocationOverlay.enableMyLocation();
         oMapLocationOverlay.enableFollowLocation();
@@ -206,6 +207,18 @@ public class MapActivity extends AppCompatActivity implements GoogleApiClient.Co
 
     @Override
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
+
+    }
+    public void addMarker(GeoPoint startPoint){
+        Marker marker = new Marker(mapView);
+        marker.setPosition(startPoint);
+        marker.setAnchor(Marker.ANCHOR_CENTER,Marker.ANCHOR_BOTTOM);
+        marker.setIcon(getResources().getDrawable(R.drawable.ic_placeholder));
+        marker.setTitle("Your Current Location");
+        mapView.getOverlays().add(marker);
+
+
+
 
     }
 

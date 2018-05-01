@@ -37,6 +37,7 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
 //        faq.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {

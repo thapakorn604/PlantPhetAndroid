@@ -12,6 +12,7 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -42,8 +43,7 @@ public class MapActivity extends AppCompatActivity implements GoogleApiClient.Co
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.map_button);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+
 
         if (mGoogleApiClient == null) {
             mGoogleApiClient = new GoogleApiClient.Builder(this)
@@ -127,10 +127,10 @@ public class MapActivity extends AppCompatActivity implements GoogleApiClient.Co
         mapView = (MapView) findViewById(R.id.mapview);
         mapView.setClickable(true);
         mapView.setBuiltInZoomControls(true);
-        mapView.getController().setZoom(15);
+        mapView.getController().setZoom(15.0);
         mapView.setTileSource(TileSourceFactory.DEFAULT_TILE_SOURCE);
         MyLocationNewOverlay oMapLocationOverlay = new MyLocationNewOverlay(mapView);
-        mapView.getOverlays().add(oMapLocationOverlay);
+//        mapView.getOverlays().add(oMapLocationOverlay);
         oMapLocationOverlay.enableFollowLocation();
         oMapLocationOverlay.enableMyLocation();
         oMapLocationOverlay.enableFollowLocation();

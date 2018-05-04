@@ -55,7 +55,7 @@ public class Cassava_Price_Chart extends AppCompatActivity {
                 .setFormat("${%Value}{groupsSeparator: }");
 
         cartesian.setAnimation(true);
-        cartesian.setTitle("ข้าวหอมมะลิ");
+        cartesian.setTitle("มันสำปะหลัง");
 
         cartesian.getYScale().setMinimum(0d);
 

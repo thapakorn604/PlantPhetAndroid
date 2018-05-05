@@ -41,16 +41,10 @@ public class SignupActivity extends AppCompatActivity {
         inputFirstname = (EditText) findViewById(R.id.inputFirstname);
         inputLastname = (EditText) findViewById(R.id.inputLastname);
         inputAddress = (EditText) findViewById(R.id.inputAddress);
-        inputDistrict = (EditText) findViewById(R.id.inputAddress);
         inputZipcode = (EditText) findViewById(R.id.inputZipcode);
         inputProvince = (EditText) findViewById(R.id.inputProvince);
         inputPhone = (EditText) findViewById(R.id.inputPhone);
         inputCompany = (EditText) findViewById(R.id.inputCompany);
-
-        rbtn_mr = (RadioButton) findViewById(R.id.rbtn_mr);
-        rbtn_mrs = (RadioButton) findViewById(R.id.rbtn_mrs);
-        rbtn_ms = (RadioButton) findViewById(R.id.rbtn_ms);
-
 
 
         btnSignup.setOnClickListener(new View.OnClickListener() {
@@ -61,7 +55,6 @@ public class SignupActivity extends AppCompatActivity {
                 String firstname = inputFirstname.getText().toString().trim();
                 String lastname = inputLastname.getText().toString().trim();
                 String address = inputAddress.getText().toString().trim();
-                String district = inputDistrict.getText().toString().trim();
                 String zipcode = inputZipcode.getText().toString().trim();
                 String province = inputProvince.getText().toString().trim();
                 String phone = inputPhone.getText().toString().trim();
@@ -93,9 +86,6 @@ public class SignupActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),"กรุณาระบุข้อมูล",Toast.LENGTH_SHORT).show();
                 }
 
-                if (TextUtils.isEmpty(district)){
-                    Toast.makeText(getApplicationContext(),"กรุณาระบุข้อมูล",Toast.LENGTH_SHORT).show();
-                }
 
                 if (TextUtils.isEmpty(zipcode)){
                     Toast.makeText(getApplicationContext(),"กรุณาระบุข้อมูล",Toast.LENGTH_SHORT).show();

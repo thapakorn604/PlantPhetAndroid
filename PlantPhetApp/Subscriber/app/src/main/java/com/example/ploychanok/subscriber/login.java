@@ -50,6 +50,7 @@ public class login extends AppCompatActivity {
         inputPassword = (EditText) findViewById(R.id.password);
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
         btnSignin = (Button) findViewById(R.id.btnSignin);
+        btnSignup = (Button)findViewById(R.id.btnSignup);
 
         auth = FirebaseAuth.getInstance();
 
@@ -91,6 +92,14 @@ public class login extends AppCompatActivity {
                 });
             }
 
+        });
+
+        btnSignup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(login.this, SignupActivity.class);
+                startActivity(intent);
+            }
         });
 
 

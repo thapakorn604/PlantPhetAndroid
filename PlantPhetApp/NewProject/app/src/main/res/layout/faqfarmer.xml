@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        tools:layout_editor_absoluteX="8dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="คำถามที่พบบ่อย"
+        android:textSize="26dp"
+        android:fontFamily="@font/athitisemibold"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="408dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/why_farmer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ทำไมต้องใช้เรา"
+            android:textSize="20dp"
+            android:fontFamily="@font/athitiregular"/>
+
+        <TextView
+            android:id="@+id/Ans_farmer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ANS:"
+            android:textSize="20dp"
+            android:fontFamily="@font/athitiregular"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="344dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/How_regis_farmer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="สมัครสมาชิกอย่างไร"
+            android:textSize="20dp"
+            android:fontFamily="@font/athitiregular"/>
+
+        <TextView
+            android:id="@+id/Ans_regis_farmer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ANS:"
+            android:textSize="20dp"
+            android:fontFamily="@font/athitiregular"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="280dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/contactdev_farmer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="การติดต่อการให้ข้อมูลแก่ผู้พัฒนา"
+            android:textSize="20dp"
+            android:fontFamily="@font/athitiregular"/>
+
+        <TextView
+            android:id="@+id/ans_contactdev_farmer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ANS:"
+            android:textSize="20dp"
+            android:fontFamily="@font/athitiregular"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="212dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/profile_farmer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ระบบข้อมูลบัญชีผู้ใช้"
+            android:textSize="20dp"
+            android:fontFamily="@font/athitiregular"/>
+
+        <TextView
+            android:id="@+id/ans_profile_farmer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ANS:"
+            android:textSize="20dp"
+            android:fontFamily="@font/athitiregular"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="144dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/problam_farmer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="รายงานปัญหาและข้อเสนอแนะ"
+            android:textSize="20dp"
+            android:fontFamily="@font/athitiregular"/>
+
+        <TextView
+            android:id="@+id/ans_problam_farmer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ANS:"
+            android:textSize="20dp"
+            android:fontFamily="@font/athitiregular"/>
+
+    </LinearLayout>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

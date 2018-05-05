@@ -36,7 +36,7 @@
             android:fontFamily="@font/athitiregular"
             android:textColor="#000"
             android:textSize="30dp"
-            android:text="ข้าวโพก"
+            android:text="ข้าวโพด"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="35dp"
             />
@@ -80,9 +80,5 @@
             android:layout_below="@id/text"
             />
     </RelativeLayout>
-
-
-
-
 
 </RelativeLayout>

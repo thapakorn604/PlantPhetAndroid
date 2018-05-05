@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="สมัครสมาชิก"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:fontFamily="@font/athitiregular"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ข้อมูลสำหรับใช้เข้าระบบ"
+                android:fontFamily="@font/athitiregular"
+                />
+            <EditText
+                android:id="@+id/inputEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:text="อีเมล"
+                android:fontFamily="@font/athitiregular"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:text="รหัสผ่าน"
+                android:fontFamily="@font/athitiregular"
+                android:id="@+id/inputPassword"/>
+
+            <TextView
+                android:layout_marginTop="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้อมูลส่วนตัว"
+                android:fontFamily="@font/athitiregular"/>
+
+
+
+                <RadioButton
+                    android:id="@+id/rbtn_mr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/athitiregular"
+                    android:layout_weight="1"
+                    android:text="นาย"
+                    />
+                <RadioButton
+                    android:id="@+id/rbtn_mrs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/athitiregular"
+                    android:layout_weight="1"
+                    android:text="นาง"/>
+                <RadioButton
+                    android:id="@+id/rbtn_ms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/athitiregular"
+                    android:layout_weight="1"
+                    android:text="นางสาว"/>
+
+            <EditText
+                android:id="@+id/inputFirstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ชื่อ"
+                android:inputType="text"
+                android:fontFamily="@font/athitiregular"/>
+
+            <EditText
+                android:id="@+id/inputLastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="นามสกุล"
+                android:inputType="text"
+                android:fontFamily="@font/athitiregular"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เพศ"
+                android:fontFamily="@font/athitiregular"/>
+
+
+
+                <RadioButton
+                    android:id="@+id/gender_female"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ชาย"
+                    android:fontFamily="@font/athitiregular"/>
+
+                <RadioButton
+                    android:id="@+id/gender_male"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="หญิง"
+                    android:fontFamily="@font/athitiregular"/>
+
+                <RadioButton
+                    android:id="@+id/gender_nottell"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ไม่ระบุ"
+                    android:fontFamily="@font/athitiregular"/>
+
+
+            <TextView
+                android:layout_marginTop="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ที่อยู่"
+                android:fontFamily="@font/athitiregular"/>
+
+            <EditText
+                android:id="@+id/inputAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ที่อยู่"
+                android:fontFamily="@font/athitiregular"/>
+
+
+
+                <EditText
+                    android:id="@+id/inputDistrict"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="อำเภอ"
+                    android:fontFamily="@font/athitiregular"/>
+
+                <EditText
+                    android:id="@+id/inputZipcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="รหัสไปรษณีย์"
+                    android:fontFamily="@font/athitiregular"/>
+
+
+
+            <EditText
+                android:id="@+id/inputProvince"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="จังหวัด"
+                android:layout_weight="1"
+                android:fontFamily="@font/athitiregular"/>
+
+            <EditText
+                android:id="@+id/inputPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone"
+                android:text="เบอร์โทรศัพท์"
+                android:fontFamily="@font/athitiregular"/>
+
+            <EditText
+                android:id="@+id/inputCompany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ชื่อหน่วยงาน/บริษัท"
+                android:fontFamily="@font/athitiregular"/>
+
+            <TextView
+                android:layout_marginTop="15sp"
+                android:id="@+id/company"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ประเภทธุรกิจ"
+                android:fontFamily="@font/athitiregular"/>
+
+
+                <RadioButton
+                    android:id="@+id/company_private"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/athitiregular"
+                    android:layout_weight="1"
+                    android:text="กิจการส่วนตัว"
+                    />
+
+                <RadioButton
+                    android:id="@+id/company_partnership"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/athitiregular"
+                    android:layout_weight="1"
+                    android:text="ห้างหุ้นส่วน"/>
+
+                <RadioButton
+                    android:id="@+id/company_company"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/athitiregular"
+                    android:layout_weight="1"
+                    android:text="บริษัทจำกัด"/>
+
+
+                <Button
+                    android:id="@+id/btnSignup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="สมัคร"
+                    android:fontFamily="@font/athitiregular"/>
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+
+</ScrollView>

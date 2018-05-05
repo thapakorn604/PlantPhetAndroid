@@ -64,21 +64,24 @@
         android:layout_height="wrap_content"
         android:hint="นามสกุล"
         android:inputType="text"
-        android:fontFamily="@font/athitiregular"/>
+        android:fontFamily="@font/athitiregular"
+        />
 
     <TextView
         android:layout_marginTop="15sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="ที่อยู่"
-        android:fontFamily="@font/athitiregular"/>
+        android:fontFamily="@font/athitiregular"
+        android:inputType="text"/>
 
     <EditText
         android:id="@+id/inputAddress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="ที่อยู่"
-        android:fontFamily="@font/athitiregular"/>
+        android:fontFamily="@font/athitiregular"
+        android:inputType="text"/>
 
     <EditText
         android:id="@+id/inputDistrict"
@@ -92,14 +95,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="รหัสไปรษณีย์"
-        android:fontFamily="@font/athitiregular"/>
+        android:ems="5"
+        android:fontFamily="@font/athitiregular"
+        android:inputType="number"/>
 
     <EditText
         android:id="@+id/inputProvince"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="จังหวัด"
-        android:fontFamily="@font/athitiregular"/>
+        android:fontFamily="@font/athitiregular"
+        android:inputType="text"/>
 
     <EditText
         android:id="@+id/inputPhone"
@@ -125,27 +131,32 @@
         android:hint="ประเภทธุรกิจ"
         android:fontFamily="@font/athitiregular"/>
 
-    <RadioButton
-        android:id="@+id/company_private"
+    <RadioGroup
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/athitiregular"
-        android:text="กิจการส่วนตัว"
-        />
+        android:layout_height="wrap_content">
 
-    <RadioButton
-        android:id="@+id/company_partnership"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/athitiregular"
-        android:text="ห้างหุ้นส่วน"/>
+        <RadioButton
+            android:id="@+id/company_private"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/athitiregular"
+            android:text="กิจการส่วนตัว"
+            />
 
-    <RadioButton
-        android:id="@+id/company_company"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/athitiregular"
-        android:text="บริษัทจำกัด"/>
+        <RadioButton
+            android:id="@+id/company_partnership"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/athitiregular"
+            android:text="ห้างหุ้นส่วน"/>
+
+        <RadioButton
+            android:id="@+id/company_company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/athitiregular"
+            android:text="บริษัทจำกัด"/>
+    </RadioGroup>
 
     <Button
         android:id="@+id/btnSignup"

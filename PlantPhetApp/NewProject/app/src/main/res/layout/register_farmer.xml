@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="144dp">
+
+                <TextView
+                    android:id="@+id/textView1_Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Register Farmer"
+                    android:textSize="26dp" />
+
+                <TextView
+                    android:id="@+id/textView2_namefarmer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ชื่่อ-สกุล"
+                    android:textSize="24dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="36dp" />
+
+                <EditText
+                    android:id="@+id/editText1_namefarmer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView3_telfarmer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="เบอร์โทรศัพท์ติดต่อ"
+                    android:textSize="24dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="36dp" />
+
+                <EditText
+                    android:id="@+id/editText2_telfarmer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="phone|number"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView4_emailfarmer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="อีเมล์(ถ้ามี)"
+                    android:textSize="24dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="36dp" />
+
+                <EditText
+                    android:id="@+id/editText3_emailfarmer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:text="" />
+
+
+
+                <TextView
+                    android:id="@+id/textView6_dbirthfarmer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ัวัน-เดือน-ปีเกิด"
+                    android:textSize="24dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="36dp" />
+
+                <EditText
+                    android:id="@+id/editText5_dbirthfarmer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="date" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView7_agefarmer"
+                            android:layout_width="109dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="อายุ"
+                            android:textSize="24dp"
+                            tools:ignore="MissingConstraints" />
+
+                        <EditText
+                            android:id="@+id/editText4_agefarmer"
+                            android:layout_width="109dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:inputType="number" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView16_sexfarmer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="เพศ"
+                            android:textSize="24dp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton_male"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="ชาย" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton2_female"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="หญิง" />
+
+                        <View
+                            android:id="@+id/divider"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="?android:attr/listDivider" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView18_edufarmer"
+                    android:layout_width="109dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="การศึกษา"
+                    android:textSize="24dp"
+                    tools:ignore="MissingConstraints" />
+
+                <EditText
+                    android:id="@+id/editText6_edufarmer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="text" />
+
+                <TextView
+                    android:id="@+id/textView21_addresfarmer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ที่อยู่"
+                    android:textSize="24dp" />
+
+                <EditText
+                    android:id="@+id/editText7_adresfarmer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="text" />
+                <TextView
+                    android:id="@+id/textView22_localfarm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ที่อยู่การเพาะปลูก"
+                    android:textSize="24dp" />
+
+                <EditText
+                    android:id="@+id/editText8_localfarm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="text" />
+                <TextView
+                    android:id="@+id/textView_kindproduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="เพาะปลูกอะไร"
+                    android:textSize="24dp" />
+
+                <EditText
+                    android:id="@+id/editText9_kindproduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="text" />
+                <TextView
+                    android:id="@+id/textView24_sizeland"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ขนาดพื้นที่การเพาะปลูก(ไร่)"
+                    android:textSize="24dp" />
+
+                <EditText
+                    android:id="@+id/editText10_sizeland"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+                <TextView
+                    android:id="@+id/textView25_timing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ช่วงเวลาการเก็บเกี่ยว"
+                    android:textSize="24dp" />
+
+                <EditText
+                    android:id="@+id/editText12_timing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

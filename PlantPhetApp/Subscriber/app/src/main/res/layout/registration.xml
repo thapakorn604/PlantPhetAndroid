@@ -79,7 +79,7 @@
         android:id="@+id/inputAddress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="ที่อยู่"
+        android:hint="บ้านเลขที่/หมู่/ตำบล"
         android:fontFamily="@font/athitiregular"
         android:inputType="text"/>
 
@@ -88,6 +88,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="อำเภอ"
+        android:inputType="text"
         android:fontFamily="@font/athitiregular"/>
 
     <EditText
@@ -121,6 +122,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="ชื่อหน่วยงาน/บริษัท"
+        android:inputType="text"
         android:fontFamily="@font/athitiregular"/>
 
     <TextView
@@ -158,13 +160,32 @@
             android:text="บริษัทจำกัด"/>
     </RadioGroup>
 
+        <EditText
+            android:id="@+id/cropinterest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="สนใจสินค้าเกษตรพื้นที่ไหน"
+            android:inputType="text"
+            android:fontFamily="@font/athitiregular"/>
+
+        <EditText
+            android:id="@+id/textView24_interst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="สนใจผลิตผลใด"
+            android:inputType="text"
+            android:fontFamily="@font/athitiregular"
+            />
+
     <Button
         android:id="@+id/btnSignup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="สมัคร"
         android:fontFamily="@font/athitiregular"
-        android:layout_gravity="center_horizontal|bottom"/>
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"/>
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -173,5 +194,6 @@
         android:layout_gravity="center|bottom"
         android:layout_marginBottom="20dp"
         android:visibility="gone" />
+
     </LinearLayout>
 </ScrollView>

@@ -39,9 +39,9 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/ploychanok/.gradle/c
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /Users/ploychanok/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/8b3d40fbaa234be5494c71053383678d/AndroidManifest.xml:17:1-24:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/ploychanok/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/77dd1f0ccc1b2faeead7a2a49b797c21/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /Users/ploychanok/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/1aa40e5bcf396cb36bf2faae14af66d2/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/ploychanok/Desktop/Subscriber/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/ploychanok/Desktop/Subscriber/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/ploychanok/Desktop/Subscriber/app/src/main/AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:3:5-48
 		INJECTED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml
@@ -69,7 +69,43 @@ MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/ploychanok/.gradle/
 	android:name
 		ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:7:5-25:19
+ADDED from /Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:7:5-25:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/dccdb6ed8525f42d4078cccb90a49ca2/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/dccdb6ed8525f42d4078cccb90a49ca2/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:15.0.2] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.2.aar/a8f64c3c3aa4c5a16a595aea9be145c0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:15.0.2] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.2.aar/a8f64c3c3aa4c5a16a595aea9be145c0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:15.1.0] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.1.0.aar/6f332d837f0c82a2d4178aced0fd49c8/AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.firebase:firebase-auth:15.1.0] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.1.0.aar/6f332d837f0c82a2d4178aced0fd49c8/AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/08ef74d75fd3d37868525a13fe21b053/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/08ef74d75fd3d37868525a13fe21b053/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/0cbce456f8bdb350291af255967edbf2/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/0cbce456f8bdb350291af255967edbf2/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-auth-interop:15.0.2] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-15.0.2.aar/d4765e9e12e2da2aff6db043425a1b7d/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:15.0.2] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-15.0.2.aar/d4765e9e12e2da2aff6db043425a1b7d/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/4ec82b077344fb36702e39ef2436a16c/AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/4ec82b077344fb36702e39ef2436a16c/AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/f562355c7922490501dac1980172ff21/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/f562355c7922490501dac1980172ff21/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-15.0.0.aar/de5056375e12f8cfb170f706feaaf235/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-15.0.0.aar/de5056375e12f8cfb170f706feaaf235/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/798fefc778526c166b5a01abf184e7e1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/798fefc778526c166b5a01abf184e7e1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:15.0.1] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/30e5d5e5384baf40e589d83b380daeed/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:15.0.1] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/30e5d5e5384baf40e589d83b380daeed/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/16a48e8f438ef473311b6ef4121ccdc2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/16a48e8f438ef473311b6ef4121ccdc2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/7329decac7eb0bde73b7499ee2891ead/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/7329decac7eb0bde73b7499ee2891ead/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:15.0.0] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-15.0.0.aar/acdf85377856d40cecdfa34e8c71e942/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:15.0.0] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-15.0.0.aar/acdf85377856d40cecdfa34e8c71e942/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/386e2d4b1c264e13f0dbbf18bf7e4c19/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/386e2d4b1c264e13f0dbbf18bf7e4c19/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/14a2df9fc3ee13d85b6f1a101513cc87/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/14a2df9fc3ee13d85b6f1a101513cc87/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/f3ca5bf9ad09d14a91be1b60138cc721/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/f3ca5bf9ad09d14a91be1b60138cc721/AndroidManifest.xml:22:5-20
+
+ADDED from /Users/ploychanok/Desktop/Subscriber/app/src/main/AndroidManifest.xml:7:5-25:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/ploychanok/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/8c2d354d1bc56fcaeb424882a26b00a1/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/ploychanok/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/8c2d354d1bc56fcaeb424882a26b00a1/AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-core:15.0.2] /Users/ploychanok/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.2.aar/ea8674ab9330033b68d6dcb9a3cfd2e3/AndroidManifest.xml:7:5-20
@@ -104,6 +140,7 @@ MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/ploych
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/ploychanok/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/75cfe55cc3b515566f8fe96ec48d7d1f/AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /Users/ploychanok/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/8b3d40fbaa234be5494c71053383678d/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /Users/ploychanok/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/8b3d40fbaa234be5494c71053383678d/AndroidManifest.xml:22:5-20
+
 	android:supportsRtl
 		ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
@@ -419,8 +456,8 @@ ADDED from [com.google.firebase:firebase-common:15.0.1] /Users/ploychanok/.gradl
 	android:name
 		ADDED from [com.google.firebase:firebase-common:15.0.1] /Users/ploychanok/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/d3f4544f14984937af4ef1272b9b51b2/AndroidManifest.xml:9:13-77
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/ploychanok/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/75cfe55cc3b515566f8fe96ec48d7d1f/AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/14a2df9fc3ee13d85b6f1a101513cc87/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/ploychanok/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/75cfe55cc3b515566f8fe96ec48d7d1f/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/14a2df9fc3ee13d85b6f1a101513cc87/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/ploychanok/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/75cfe55cc3b515566f8fe96ec48d7d1f/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/thapakorn/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/14a2df9fc3ee13d85b6f1a101513cc87/AndroidManifest.xml:24:13-58

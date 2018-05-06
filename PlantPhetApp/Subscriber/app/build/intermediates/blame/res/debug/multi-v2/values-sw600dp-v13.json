@@ -14,7 +14,11 @@
                     }
                 },
                 {
+<<<<<<< HEAD
+                    "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+=======
                     "source": "/Users/ploychanok/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/59beb5b0f3cde27c12bd5d364585ef00/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+>>>>>>> 23e7272a52440da0299164cfd4e6ee3798a4890a
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",

@@ -58,7 +58,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="เช็กราคาผลผลิต"
+            android:text="บันทึกราคาผลผลิต"
             android:fontFamily="@font/athitiregular"
             android:textSize="18sp"
             android:layout_gravity="center_horizontal"/>

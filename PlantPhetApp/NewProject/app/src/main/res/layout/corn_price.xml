@@ -27,7 +27,7 @@
             android:fontFamily="@font/athitiregular"
             android:textColor="#000"
             android:layout_centerHorizontal="true"
-            android:text="แนวโน้มราคา รายการสินค้า"
+            android:text="ราคาสินค้าทางการเกษตร"
             android:textSize="15dp"
             android:layout_marginTop="22dp"
             />
@@ -38,7 +38,7 @@
             android:fontFamily="@font/athitiregular"
             android:textColor="#000"
             android:textSize="30dp"
-            android:text="ข้าวเหนียว"
+            android:text="ข้าวโพด"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="35dp"
             />
@@ -68,14 +68,13 @@
             android:id="@+id/text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="คาดการ ณ วันที่ 22 มีนาคม 2561"
+            android:text="ราคาปัจจุบัน ณ วันที่ 22 มีนาคม 2561"
             android:fontFamily="@font/athitiregular"
             android:textColor="#000"
             android:textSize="15dp"
             android:layout_centerHorizontal="true"
             android:layout_below="@+id/top"
             />
-
     </RelativeLayout>
 
     <TextView
@@ -94,13 +93,13 @@
         />
 
     <RelativeLayout
-        android:id="@+id/sticky_threemonths"
+        android:id="@+id/corn_threemonths"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/predict">
 
         <ImageButton
-            android:id="@+id/btn_sticky_threemonths"
+            android:id="@+id/btn_corn_threemonths"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_marginLeft="10sp"
@@ -112,7 +111,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginLeft="25sp"
+            android:layout_marginLeft="30sp"
             android:layout_marginRight="20sp"
             android:layout_marginTop="10sp"
             android:id="@+id/content1">
@@ -126,7 +125,7 @@
                 android:textSize="25sp"
                 android:fontFamily="@font/athitiregular"/>
             <TextView
-                android:id="@+id/sticky_price3m"
+                android:id="@+id/corn_price3m"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="6.04"
@@ -156,13 +155,13 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/sticky_sixmonths"
+        android:id="@+id/corn_sixmonths"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/predict">
 
         <ImageButton
-            android:id="@+id/btn_sticky_sixmonths"
+            android:id="@+id/btn_corn_sixmonths"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_marginLeft="10sp"
@@ -174,7 +173,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginLeft="25sp"
+            android:layout_marginLeft="30sp"
             android:layout_marginRight="20sp"
             android:layout_marginTop="10sp"
             android:id="@+id/content2">
@@ -188,7 +187,7 @@
                 android:textSize="25sp"
                 android:fontFamily="@font/athitiregular"/>
             <TextView
-                android:id="@+id/sticky_price6m"
+                android:id="@+id/corn_price6m"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="6.04"
@@ -218,13 +217,13 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/sticky_ninemonths"
+        android:id="@+id/corn_ninemonths"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/predict">
 
         <ImageButton
-            android:id="@+id/btn_rice_ninemonths"
+            android:id="@+id/btn_corn_ninemonths"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_marginLeft="10sp"
@@ -236,7 +235,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginLeft="25sp"
+            android:layout_marginLeft="30sp"
             android:layout_marginRight="20sp"
             android:layout_marginTop="10sp"
             android:id="@+id/content3">
@@ -245,12 +244,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="หกเดือน"
+                android:text="เก้าเดือน"
                 android:textColor="#000000"
                 android:textSize="25sp"
                 android:fontFamily="@font/athitiregular"/>
             <TextView
-                android:id="@+id/sticky_price9m"
+                android:id="@+id/corn_price9m"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="6.04"

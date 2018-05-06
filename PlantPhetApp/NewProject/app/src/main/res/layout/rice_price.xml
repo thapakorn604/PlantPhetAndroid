@@ -93,13 +93,13 @@
         />
 
     <RelativeLayout
-        android:id="@+id/column_threemonths"
+        android:id="@+id/rice_threemonths"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/predict">
 
         <ImageButton
-            android:id="@+id/btn_threemonths"
+            android:id="@+id/btn_rice_threemonths"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_marginLeft="10sp"
@@ -125,7 +125,7 @@
                 android:textSize="25sp"
                 android:fontFamily="@font/athitiregular"/>
             <TextView
-                android:id="@+id/price3m"
+                android:id="@+id/rice_price3m"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="6.04"
@@ -155,13 +155,13 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/column_sixmonths"
+        android:id="@+id/rice_sixmonths"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/predict">
 
         <ImageButton
-            android:id="@+id/btn_sixmonths"
+            android:id="@+id/btn_rice_sixmonths"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_marginLeft="10sp"
@@ -187,7 +187,7 @@
                 android:textSize="25sp"
                 android:fontFamily="@font/athitiregular"/>
             <TextView
-                android:id="@+id/price6m"
+                android:id="@+id/rice_price6m"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="6.04"
@@ -217,13 +217,13 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/column_ninemonths"
+        android:id="@+id/rice_ninemonths"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/predict">
 
         <ImageButton
-            android:id="@+id/btn_ninemonths"
+            android:id="@+id/btn_rice_ninemonths"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_marginLeft="10sp"
@@ -249,7 +249,7 @@
                 android:textSize="25sp"
                 android:fontFamily="@font/athitiregular"/>
             <TextView
-                android:id="@+id/price9m"
+                android:id="@+id/rice_price9m"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="6.04"

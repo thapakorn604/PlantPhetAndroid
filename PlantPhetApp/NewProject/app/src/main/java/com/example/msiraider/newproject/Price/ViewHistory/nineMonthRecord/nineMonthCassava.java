@@ -1,4 +1,4 @@
-package com.example.msiraider.newproject.Price.Chart;
+package com.example.msiraider.newproject.Price.ViewHistory.nineMonthRecord;
 
 
 import android.os.Bundle;
@@ -20,32 +20,28 @@ import com.example.msiraider.newproject.R;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StickyRice_Price_Chart extends AppCompatActivity {
-
+public class nineMonthCassava extends AppCompatActivity {
 
     @Override
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.cassava_price_graph);
+        setContentView(R.layout.rice_price);
 
         AnyChartView anyChartView = findViewById(R.id.any_chart_view);
 
         Cartesian cartesian = AnyChart.column();
 
         List<DataEntry> data = new ArrayList<>();
-        data.add(new ValueDataEntry("ม.ค.", 80540));
-        data.add(new ValueDataEntry("ก.พ.", 94190));
-        data.add(new ValueDataEntry("มี.ค.", 102610));
-        data.add(new ValueDataEntry("เม.ย.", 110430));
-        data.add(new ValueDataEntry("พ.ค.", 128000));
-        data.add(new ValueDataEntry("มิ.ย.", 143760));
-        data.add(new ValueDataEntry("ก.ค.", 170670));
-        data.add(new ValueDataEntry("ส.ค.", 213210));
-        data.add(new ValueDataEntry("ก.ย.", 249980));
-        data.add(new ValueDataEntry("ต.ค.", 249980));
-        data.add(new ValueDataEntry("พ.ย.", 249980));
-        data.add(new ValueDataEntry("ธ.ค.", 249980));
+
+        data.add(new ValueDataEntry("1-2561", 1.98));
+        data.add(new ValueDataEntry("12-2560", 2.07));
+        data.add(new ValueDataEntry("11-2560", 1.72));
+        data.add(new ValueDataEntry("10-2560", 1.41));
+        data.add(new ValueDataEntry("9-2560", 1.34));
+        data.add(new ValueDataEntry("8-2560", 1.22));
+        data.add(new ValueDataEntry("7-2560", 1.21));
+        data.add(new ValueDataEntry("6-2560", 1.17));
 
 
         CartesianSeriesColumn column = cartesian.column(data);
@@ -59,7 +55,8 @@ public class StickyRice_Price_Chart extends AppCompatActivity {
                 .setFormat("{%Value}{groupsSeparator: } บาท");
 
         cartesian.setAnimation(true);
-        cartesian.setTitle("ราคาข้าวเหนียว");
+        cartesian.setTitle("สถิติราคาของมันสำปะหลังย้อนหลัง8เดือน");
+
 
         cartesian.getYScale().setMinimum(0d);
 

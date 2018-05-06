@@ -50,7 +50,7 @@ public class nineMonthJasmine extends AppCompatActivity {
                 .setAnchor(EnumsAnchor.CENTER_BOTTOM)
                 .setOffsetX(0d)
                 .setOffsetY(5d)
-                .setFormat("${%Value}{groupsSeparator: }");
+                .setFormat("{%Value}{groupsSeparator: }");
 
         cartesian.setAnimation(true);
         cartesian.setTitle("สถิติราคาของข้าวหอมมะลิย้อนหลัง9เดือน");

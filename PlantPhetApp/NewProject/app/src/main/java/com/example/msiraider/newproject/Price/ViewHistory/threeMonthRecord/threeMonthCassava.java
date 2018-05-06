@@ -52,7 +52,7 @@ public class threeMonthCassava extends AppCompatActivity {
         cartesian.setTitle("สถิติราคาของมันสำปะหลังย้อนหลัง3เดือน");
         cartesian.getYScale().setMinimum(0d);
 
-        cartesian.getYAxis().getLabels().setFormat("${%Value}{groupsSeparator: } บาท");
+        cartesian.getYAxis().getLabels().setFormat("{%Value}{groupsSeparator: } บาท");
 
         cartesian.getTooltip().setPositionMode(TooltipPositionMode.POINT);
         cartesian.getInteractivity().setHoverMode(HoverMode.BY_X);

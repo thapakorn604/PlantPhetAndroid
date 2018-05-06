@@ -103,14 +103,14 @@ public class tenYearCorn extends AppCompatActivity {
                 .setAnchor(EnumsAnchor.CENTER_BOTTOM)
                 .setOffsetX(0d)
                 .setOffsetY(5d)
-                .setFormat("${%Value}{groupsSeparator: }");
+                .setFormat("{%Value}{groupsSeparator: }");
 
         cartesian.setAnimation(true);
         cartesian.setTitle("สถิติราคาของข้าวโพดย้อนหลัง5ปี");
 
         cartesian.getYScale().setMinimum(0d);
 
-        cartesian.getYAxis().getLabels().setFormat("${%Value}{groupsSeparator: } บาท");
+        cartesian.getYAxis().getLabels().setFormat("{%Value}{groupsSeparator: } บาท");
 
         cartesian.getTooltip().setPositionMode(TooltipPositionMode.POINT);
         cartesian.getInteractivity().setHoverMode(HoverMode.BY_X);

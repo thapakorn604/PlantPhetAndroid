@@ -64,15 +64,9 @@
             android:layout_gravity="center_horizontal"/>
 
         <ImageButton
-<<<<<<< HEAD
-            android:id="@+id/profile"
+            android:id="@+id/register"
             android:layout_width="100dp"
             android:layout_height="100dp"
-=======
-            android:id="@+id/register"
-            android:layout_width="130dp"
-            android:layout_height="130dp"
->>>>>>> master
             android:background="@drawable/ic_hand_shake"
             android:layout_margin="15dp"/>
 

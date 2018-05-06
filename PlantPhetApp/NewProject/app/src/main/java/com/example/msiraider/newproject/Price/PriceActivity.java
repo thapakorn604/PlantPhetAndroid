@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
@@ -26,30 +27,27 @@ import java.util.Calendar;
 public class PriceActivity extends AppCompatActivity {
 //    public static ImageButton top, buttonlist1, buttonlist2, buttonlist3;
 //    public static TextView rice,cassava,corn,sticky;
-    ImageButton top,buttonlist1,buttonlist2,buttonlist3;
+    public static Button top,buttonlist1,buttonlist2,buttonlist3;
 
-    public static TextView rice,cassava,corn,sticky;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.price);
-         top = (ImageButton) findViewById(R.id.top);
-         buttonlist1 = (ImageButton) findViewById(R.id.buttonlist1);
-         buttonlist2 = (ImageButton) findViewById(R.id.buttonlist2);
-         buttonlist3 = (ImageButton) findViewById(R.id.buttonlist3);
-         rice = (TextView) findViewById(R.id.rice);
-         cassava = (TextView) findViewById(R.id.cassava);
-         corn = (TextView) findViewById(R.id.corn);
-         sticky = (TextView) findViewById(R.id.sticky);
+         top = (Button) findViewById(R.id.top);
+         buttonlist1 = (Button) findViewById(R.id.buttonlist1);
+         buttonlist2 = (Button) findViewById(R.id.buttonlist2);
+         buttonlist3 = (Button) findViewById(R.id.buttonlist3);
+
 //        --------------------------Retrieve Data--------------------
-        final fetchCassavaData process = new fetchCassavaData();
-        process.execute();
-        fetchRiceData process1 = new fetchRiceData();
-        process1.execute();
-        final fetchStickyRice process2 = new fetchStickyRice();
-        process2.execute();
-        fetchCornData process3 = new fetchCornData();
-        process3.execute();
+//        final fetchCassavaData process = new fetchCassavaData();
+//        process.execute();
+//        fetchRiceData process1 = new fetchRiceData();
+//        process1.execute();
+//        final fetchStickyRice process2 = new fetchStickyRice();
+//        process2.execute();
+//        fetchCornData process3 = new fetchCornData();
+//        process3.execute();
 //        -----------------------------Get Currenttime-----------------
 
         buttonlist1.setOnClickListener(new View.OnClickListener() {

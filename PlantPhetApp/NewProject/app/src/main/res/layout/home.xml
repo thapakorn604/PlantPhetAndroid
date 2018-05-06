@@ -12,13 +12,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="PlantPhet"
-        android:textSize="50dp"
+        android:textSize="40dp"
         android:fontFamily="@font/sriracharegular"
         android:textColor="#ffffff"
         android:layout_centerHorizontal="true"
         />
 
     <LinearLayout
+        android:id="@+id/group_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/logo"
@@ -32,9 +33,8 @@
 
         <ImageButton
             android:id="@+id/price"
-            android:layout_width="130dp"
-            android:layout_height="130dp"
-            android:layout_marginTop="15dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_marginRight="15dp"
             android:layout_marginLeft="15dp"
             android:background="@drawable/ic_growth"
@@ -45,15 +45,31 @@
             android:text="ดูราคาสินค้า"
             android:fontFamily="@font/athitiregular"
             android:textSize="18sp"
-            android:layout_marginBottom="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <ImageButton
+        android:id="@+id/graph"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ic_analytics"
+        android:layout_margin="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="เช็กราคาผลผลิต"
+            android:fontFamily="@font/athitiregular"
+            android:textSize="18sp"
             android:layout_gravity="center_horizontal"/>
 
         <ImageButton
             android:id="@+id/profile"
-            android:layout_width="130dp"
-            android:layout_height="130dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:background="@drawable/ic_hand_shake"
             android:layout_margin="15dp"/>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -63,7 +79,6 @@
             android:layout_gravity="center_horizontal"/>
 
     </LinearLayout>
-
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -71,9 +86,8 @@
 
             <ImageButton
                 android:id="@+id/map"
-                android:layout_width="130dp"
-                android:layout_height="130dp"
-                android:layout_marginTop="15dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_marginRight="15dp"
                 android:layout_marginLeft="15dp"
                 android:background="@drawable/ic_placeholder_2"
@@ -84,13 +98,13 @@
                 android:text="แผนที่เกษตร"
                 android:fontFamily="@font/athitiregular"
                 android:textSize="18sp"
-                android:layout_marginBottom="15dp"
+                android:layout_marginBottom="10dp"
                 android:layout_gravity="center_horizontal"/>
 
             <ImageButton
                 android:id="@+id/faq"
-                android:layout_width="130dp"
-                android:layout_height="130dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:background="@drawable/ic_chat"
                 android:layout_margin="15dp"/>
             <TextView
@@ -104,5 +118,6 @@
         </LinearLayout>
 
     </LinearLayout>
+
 
 </RelativeLayout>

@@ -63,7 +63,7 @@ public class fetchRiceData extends AsyncTask<Void, Void, Void> {
     @Override
     protected void onPostExecute(Void aVoid) {
         super.onPostExecute(aVoid);
-        PriceActivity.rice.setText(riceNew);
+
     }
 
 }

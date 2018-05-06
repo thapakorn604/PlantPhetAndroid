@@ -28,6 +28,26 @@ public class RegisterActivity extends AppCompatActivity {
                 callPhone();
             }
         });
+
+        email.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                sendEmail();
+            }
+        });
+    }
+
+    private void sendEmail() {
+        String mailto = "mailto:admin@plantphet.io";
+
+        Intent emailIntent = new Intent(Intent.ACTION_SENDTO);
+        emailIntent.setData(Uri.parse(mailto));
+
+        try {
+            startActivity(emailIntent);
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
     }
 
     private void callPhone() {

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title_aboutme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="เกี่ยวกับApplication"
+                android:textAlignment="center"
+                android:fontFamily="@font/athitiregular"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/content_aboutme"
+                android:fontFamily="@font/athitiregular"
+                android:layout_width="match_parent"
+                android:layout_height="229dp"
+                android:layout_marginLeft="10px"
+                android:layout_marginTop="30px"
+                android:text="    PlantPhet Applucation ที่ตอบโจทย์กับเกษตรยุคThailand4.0 ทั้งในด้านการให้ข้อมูลดทางด้านราคาการขายรวมถึงการรวมสถิติของราค,การให้ข้อมูลด้านปัจจัยทางภูมิศาสาตร์สำหรับการเพาะปลูก
+                เพื่อช่วยให้เกษตรวิเคารห์และตัดสนใจการปลูกบนพื้นฐานของข้อมูลที่หน้าเชื่อถือ รวมถึงการเพิ่มชองทางการขายให้กับเกษตรกรการขายผลผลิต
+    "
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/title_spthank"
+                android:fontFamily="@font/athitiregular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10px"
+                android:layout_marginTop="30px"
+                android:text="Special Thanks"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/content_spthank"
+                android:fontFamily="@font/athitiregular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10px"
+                android:layout_marginTop="30px"
+                android:text="[Organization - Free business icons](https://www.flaticon.com/free-icon/organization_306471)
+[Growth - Free business icons](https://www.flaticon.com/free-icon/growth_306435)
+[Chat - Free multimedia icons](https://www.flaticon.com/free-icon/chat_305104)
+[Chat - Free multimedia icons](https://www.flaticon.com/free-icon/chat_309666)
+[Map - Free interface icons](https://www.flaticon.com/free-icon/map_308864#term=map&amp;page=1_position=21)
+[Placeholder - Free signs icons](https://www.flaticon.com/free-icon/placeholder_197735#term=map_page=1_position=34)
+[Businessman - Free social icons](https://www.flaticon.com/free-icon/businessman_206853)
+https://www.flaticon.com/free-icon/hand-shake_305091#term=business_hand_shake_page=1_position=1
+
+For apps:
+Place the attribution on the credits/description page of the application."
+
+
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

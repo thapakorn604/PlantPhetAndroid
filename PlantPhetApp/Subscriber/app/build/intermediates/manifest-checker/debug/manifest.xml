@@ -36,8 +36,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.ploychanok.subscriber.SignupActivity" />
         <activity android:name="com.example.ploychanok.subscriber.homeActivity" />
+        <activity android:name="com.example.ploychanok.subscriber.profileActivity" />
+        <activity android:name="com.example.ploychanok.subscriber.SignupActivity" />
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
             android:excludeFromRecents="true"
@@ -119,9 +120,6 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-        <meta-data
-            android:name="android.support.VERSION"
-            android:value="26.1.0" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"

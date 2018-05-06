@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ploychanok/Desktop/Subscriber/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml",
+            "outputFile": "/Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml",
             "map": [
                 {
                     "source": "/Users/ploychanok/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/98f136254f916f4089845468b58e3d20/res/values-el/values-el.xml",

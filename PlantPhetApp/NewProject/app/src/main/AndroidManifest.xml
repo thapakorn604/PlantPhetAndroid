@@ -29,6 +29,12 @@
         <activity android:name=".Price.Chart.Rice_Price_Chart"></activity>
         <activity android:name=".Price.Chart.StickyRice_Price_Chart"></activity>
         <activity android:name=".Map.MapActivity"></activity>
+        <activity android:name=".FAQ.FaqHomeActivity"></activity>
+        <activity android:name=".FAQ.UserManualActivity"></activity>
+        <activity android:name=".FAQ.FaqActivity"></activity>
+        <activity android:name=".FAQ.AboutActivity"></activity>
+        <activity android:name=".FAQ.ContactActivity"></activity>
+        <activity android:name=".Register.RegisterActivity"></activity>
     </application>
 
 </manifest>

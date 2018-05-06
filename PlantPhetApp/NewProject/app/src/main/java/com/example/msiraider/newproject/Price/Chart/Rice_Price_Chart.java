@@ -33,15 +33,18 @@ public class Rice_Price_Chart extends AppCompatActivity {
         Cartesian cartesian = AnyChart.column();
 
         List<DataEntry> data = new ArrayList<>();
-        data.add(new ValueDataEntry("Rouge", 80540));
-        data.add(new ValueDataEntry("Foundation", 94190));
-        data.add(new ValueDataEntry("Mascara", 102610));
-        data.add(new ValueDataEntry("Lip gloss", 110430));
-        data.add(new ValueDataEntry("Lipstick", 128000));
-        data.add(new ValueDataEntry("Nail polish", 143760));
-        data.add(new ValueDataEntry("Eyebrow pencil", 170670));
-        data.add(new ValueDataEntry("Eyeliner", 213210));
-        data.add(new ValueDataEntry("Eyeshadows", 249980));
+        data.add(new ValueDataEntry("ม.ค.", 80540));
+        data.add(new ValueDataEntry("ก.พ.", 94190));
+        data.add(new ValueDataEntry("มี.ค.", 102610));
+        data.add(new ValueDataEntry("เม.ย.", 110430));
+        data.add(new ValueDataEntry("พ.ค.", 128000));
+        data.add(new ValueDataEntry("มิ.ย.", 143760));
+        data.add(new ValueDataEntry("ก.ค.", 170670));
+        data.add(new ValueDataEntry("ส.ค.", 213210));
+        data.add(new ValueDataEntry("ก.ย.", 249980));
+        data.add(new ValueDataEntry("ต.ค.", 249980));
+        data.add(new ValueDataEntry("พ.ย.", 249980));
+        data.add(new ValueDataEntry("ธ.ค.", 249980));
 
 
         CartesianSeriesColumn column = cartesian.column(data);
@@ -52,10 +55,10 @@ public class Rice_Price_Chart extends AppCompatActivity {
                 .setAnchor(EnumsAnchor.CENTER_BOTTOM)
                 .setOffsetX(0d)
                 .setOffsetY(5d)
-                .setFormat("${%Value}{groupsSeparator: }");
+                .setFormat("${%Value}{groupsSeparator: } บาท");
 
         cartesian.setAnimation(true);
-        cartesian.setTitle("Rice_Price_Chart");
+        cartesian.setTitle("ราคาข้าวเจ้า");
 
         cartesian.getYScale().setMinimum(0d);
 
@@ -64,8 +67,8 @@ public class Rice_Price_Chart extends AppCompatActivity {
         cartesian.getTooltip().setPositionMode(TooltipPositionMode.POINT);
         cartesian.getInteractivity().setHoverMode(HoverMode.BY_X);
 
-        cartesian.getXAxis().setTitle("Price");
-        cartesian.getYAxis().setTitle("Month");
+        cartesian.getXAxis().setTitle("เดือน");
+        cartesian.getYAxis().setTitle("ราคา");
 
         anyChartView.setChart(cartesian);
     }

@@ -144,8 +144,12 @@
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/anim/abc_fade_out.xml"
     },
     {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-v21_design_password_eye.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/drawable-v21/design_password_eye.xml"
+    },
+    {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_custom.xml.flat",
-        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/3e57a5ea7d33eddcc28789ddaf1c6449/res/layout/notification_template_big_media_custom.xml"
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/fe846eecce9eaa3c468bfebb5e541054/res/layout/notification_template_big_media_custom.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -162,6 +166,14 @@
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable_abc_item_background_holo_light.xml.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/anim-v21_design_bottom_sheet_slide_out.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_design_navigation_item_subheader.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/layout/design_navigation_item_subheader.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_abc_search_dropdown_item_icons_2line.xml.flat",
@@ -217,7 +229,11 @@
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_notification_template_media_custom.xml.flat",
-        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/3e57a5ea7d33eddcc28789ddaf1c6449/res/layout/notification_template_media_custom.xml"
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/fe846eecce9eaa3c468bfebb5e541054/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_design_bottom_sheet_dialog.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/layout/design_bottom_sheet_dialog.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_home.xml.flat",
@@ -236,12 +252,8 @@
         "source": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/res/layout/activity_home.xml"
     },
     {
-        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-v24_ic_menu_white_24px.xml.flat",
-        "source": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/res/drawable-v24/ic_menu_white_24px.xml"
-    },
-    {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_notification_media_cancel_action.xml.flat",
-        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/3e57a5ea7d33eddcc28789ddaf1c6449/res/layout/notification_media_cancel_action.xml"
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/fe846eecce9eaa3c468bfebb5e541054/res/layout/notification_media_cancel_action.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
@@ -260,12 +272,12 @@
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/layout/abc_tooltip.xml"
     },
     {
-        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_longpressed_holo.9.png.flat",
-        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png"
-    },
-    {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
@@ -336,6 +348,10 @@
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png"
     },
     {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable_design_fab_background.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/drawable/design_fab_background.xml"
+    },
+    {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/color_abc_tint_seek_thumb.xml.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/color/abc_tint_seek_thumb.xml"
     },
@@ -358,6 +374,10 @@
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/color_abc_hint_foreground_material_light.xml.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/anim_design_snackbar_in.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/anim/design_snackbar_in.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
@@ -388,6 +408,10 @@
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-xhdpi-v4/abc_ic_star_half_black_48dp.png"
     },
     {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_design_ic_visibility.png.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/drawable-hdpi-v4/design_ic_visibility.png"
+    },
+    {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/281c8bc4ce0e2d25c14de586b7d56b18/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
     },
@@ -398,6 +422,10 @@
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_design_ic_visibility.png.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/drawable-mdpi-v4/design_ic_visibility.png"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
@@ -434,6 +462,10 @@
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-v21_design_bottom_navigation_item_background.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/drawable-v21/design_bottom_navigation_item_background.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
@@ -480,6 +512,10 @@
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_design_ic_visibility_off.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    },
+    {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
@@ -500,8 +536,20 @@
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/layout/abc_alert_dialog_material.xml"
     },
     {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_account_circle_black_24dp.png.flat",
+        "source": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/generated/res/pngs/debug/drawable-mdpi/ic_account_circle_black_24dp.png"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_account_circle_black_24dp.png.flat",
+        "source": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/generated/res/pngs/debug/drawable-hdpi/ic_account_circle_black_24dp.png"
+    },
+    {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-hdpi-v4/abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_design_ic_visibility_off.png.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/drawable-xhdpi-v4/design_ic_visibility_off.png"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
@@ -516,16 +564,20 @@
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-v24_ic_forward_black_24px.xml.flat",
-        "source": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/res/drawable-v24/ic_forward_black_24px.xml"
-    },
-    {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_account_circle_black_24dp.png.flat",
+        "source": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_account_circle_black_24dp.png"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_input_black_24dp.xml.flat",
+        "source": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_input_black_24dp.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
@@ -538,6 +590,10 @@
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/color_abc_background_cache_hint_selector_material_light.xml.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/color/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/anim_design_snackbar_out.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/anim/design_snackbar_out.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
@@ -570,6 +626,10 @@
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_design_layout_tab_text.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/layout/design_layout_tab_text.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
@@ -606,6 +666,10 @@
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable_design_bottom_navigation_item_background.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/drawable/design_bottom_navigation_item_background.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
@@ -681,7 +745,7 @@
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_notification_template_media.xml.flat",
-        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/3e57a5ea7d33eddcc28789ddaf1c6449/res/layout/notification_template_media.xml"
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/fe846eecce9eaa3c468bfebb5e541054/res/layout/notification_template_media.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
@@ -729,7 +793,7 @@
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow.xml.flat",
-        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/3e57a5ea7d33eddcc28789ddaf1c6449/res/layout/notification_template_big_media_narrow.xml"
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/fe846eecce9eaa3c468bfebb5e541054/res/layout/notification_template_big_media_narrow.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -760,8 +824,16 @@
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png"
     },
     {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable_design_password_eye.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/drawable/design_password_eye.xml"
+    },
+    {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_input_black_24dp.png.flat",
+        "source": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_input_black_24dp.png"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_48dp.png.flat",
@@ -778,6 +850,10 @@
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher_background.png.flat",
         "source": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/anim_design_bottom_sheet_slide_out.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/anim/design_bottom_sheet_slide_out.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -848,8 +924,8 @@
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-xhdpi-v4/abc_text_select_handle_left_mtrl_dark.png"
     },
     {
-        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-v24_ic_help_black_24px.xml.flat",
-        "source": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/res/drawable-v24/ic_help_black_24px.xml"
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/anim_design_bottom_sheet_slide_in.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/anim/design_bottom_sheet_slide_in.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
@@ -945,7 +1021,7 @@
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_notification_media_action.xml.flat",
-        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/3e57a5ea7d33eddcc28789ddaf1c6449/res/layout/notification_media_action.xml"
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/fe846eecce9eaa3c468bfebb5e541054/res/layout/notification_media_action.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
@@ -956,12 +1032,20 @@
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/color-v23/abc_btn_colored_text_material.xml"
     },
     {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_design_navigation_menu.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/layout/design_navigation_menu.xml"
+    },
+    {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable_abc_ic_clear_material.xml.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable/abc_ic_clear_material.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/color_abc_primary_text_disable_only_material_dark.xml.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_design_bottom_navigation_item.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/layout/design_bottom_navigation_item.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable_abc_list_selector_holo_light.xml.flat",
@@ -988,12 +1072,24 @@
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
     },
     {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_input_black_24dp.png.flat",
+        "source": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/generated/res/pngs/debug/drawable-mdpi/ic_input_black_24dp.png"
+    },
+    {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_notification_action.xml.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/281c8bc4ce0e2d25c14de586b7d56b18/res/layout/notification_action.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable_navigation_empty_icon.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_design_ic_visibility.png.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/drawable-xxxhdpi-v4/design_ic_visibility.png"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-v24_ic_organization.xml.flat",
@@ -1010,6 +1106,10 @@
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-xhdpi-v4/abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/color-v23_design_tint_password_toggle.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/color-v23/design_tint_password_toggle.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -1100,6 +1200,10 @@
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_design_text_input_password_icon.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/layout/design_text_input_password_icon.xml"
+    },
+    {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/281c8bc4ce0e2d25c14de586b7d56b18/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
     },
@@ -1120,16 +1224,24 @@
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
-        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_notification_action_tombstone.xml.flat",
-        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/281c8bc4ce0e2d25c14de586b7d56b18/res/layout/notification_action_tombstone.xml"
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/color_design_tint_password_toggle.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/color/design_tint_password_toggle.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_notification_action_tombstone.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/281c8bc4ce0e2d25c14de586b7d56b18/res/layout/notification_action_tombstone.xml"
+    },
+    {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/color-v23_abc_btn_colored_borderless_text_material.xml.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_design_layout_snackbar.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/layout/design_layout_snackbar.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
@@ -1164,6 +1276,10 @@
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png"
     },
     {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_design_navigation_item_separator.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/layout/design_navigation_item_separator.xml"
+    },
+    {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
     },
@@ -1176,12 +1292,24 @@
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
     },
     {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/animator-v21_design_appbar_state_list_animator.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/animator-v21/design_appbar_state_list_animator.xml"
+    },
+    {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable_abc_ic_go_search_api_material.xml.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable/abc_ic_go_search_api_material.xml"
     },
     {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_design_ic_visibility_off.png.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/drawable-xxhdpi-v4/design_ic_visibility_off.png"
+    },
+    {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_design_menu_item_action_area.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/layout/design_menu_item_action_area.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable_tooltip_frame_light.xml.flat",
@@ -1218,6 +1346,10 @@
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_design_layout_snackbar_include.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/layout/design_layout_snackbar_include.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
@@ -1264,6 +1396,10 @@
         "source": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/res/drawable-v24/ic_chat_2.xml"
     },
     {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_account_circle_black_24dp.xml.flat",
+        "source": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_account_circle_black_24dp.xml"
+    },
+    {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
     },
@@ -1290,6 +1426,10 @@
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_design_layout_tab_icon.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/layout/design_layout_tab_icon.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_radio.xml.flat",
@@ -1352,6 +1492,10 @@
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
     },
     {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_design_ic_visibility.png.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/drawable-xxhdpi-v4/design_ic_visibility.png"
+    },
+    {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/color-v21_abc_btn_colored_borderless_text_material.xml.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/color-v21/abc_btn_colored_borderless_text_material.xml"
     },
@@ -1366,6 +1510,18 @@
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/798fefc778526c166b5a01abf184e7e1/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_input_black_24dp.png.flat",
+        "source": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_input_black_24dp.png"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-v21_avd_hide_password.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/drawable-v21/avd_hide_password.xml"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_design_ic_visibility_off.png.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/drawable-hdpi-v4/design_ic_visibility_off.png"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-v24_button_home.xml.flat",
@@ -1388,16 +1544,24 @@
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_faq.xml.flat",
+        "source": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/res/layout/faq.xml"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-v21_avd_show_password.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/drawable-v21/avd_show_password.xml"
+    },
+    {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/color_common_google_signin_btn_tint.xml.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/798fefc778526c166b5a01abf184e7e1/res/color/common_google_signin_btn_tint.xml"
     },
     {
-        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable_abc_spinner_textfield_background_material.xml.flat",
-        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable/abc_spinner_textfield_background_material.xml"
-    },
-    {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable_abc_spinner_textfield_background_material.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/color_abc_primary_text_material_dark.xml.flat",
@@ -1406,6 +1570,10 @@
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_account_circle_black_24dp.png.flat",
+        "source": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/generated/res/pngs/debug/drawable-ldpi/ic_account_circle_black_24dp.png"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_full_open_on_phone.png.flat",
@@ -1420,8 +1588,16 @@
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_profile.xml.flat",
+        "source": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/res/layout/profile.xml"
+    },
+    {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_design_navigation_item_header.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/layout/design_navigation_item_header.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -1449,7 +1625,7 @@
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow_custom.xml.flat",
-        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/3e57a5ea7d33eddcc28789ddaf1c6449/res/layout/notification_template_big_media_narrow_custom.xml"
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/fe846eecce9eaa3c468bfebb5e541054/res/layout/notification_template_big_media_narrow_custom.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
@@ -1464,8 +1640,16 @@
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-hdpi-v4/abc_ic_star_half_black_48dp.png"
     },
     {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_input_black_24dp.png.flat",
+        "source": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/generated/res/pngs/debug/drawable-hdpi/ic_input_black_24dp.png"
+    },
+    {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_design_navigation_menu_item.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/layout/design_navigation_menu_item.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/color_abc_background_cache_hint_selector_material_dark.xml.flat",
@@ -1484,6 +1668,10 @@
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
     },
     {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_design_ic_visibility.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    },
+    {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
     },
@@ -1493,7 +1681,7 @@
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_notification_template_lines_media.xml.flat",
-        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/3e57a5ea7d33eddcc28789ddaf1c6449/res/layout/notification_template_lines_media.xml"
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/fe846eecce9eaa3c468bfebb5e541054/res/layout/notification_template_lines_media.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
@@ -1518,6 +1706,10 @@
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_icon.xml.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout-sw600dp-v13_design_layout_snackbar.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/layout-sw600dp-v13/design_layout_snackbar.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
@@ -1564,8 +1756,20 @@
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_design_navigation_item.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_design_ic_visibility_off.png.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/drawable-xxxhdpi-v4/design_ic_visibility_off.png"
+    },
+    {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-xhdpi-v4/abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_account_circle_black_24dp.png.flat",
+        "source": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_account_circle_black_24dp.png"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -1612,6 +1816,10 @@
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/color-v23/abc_tint_seek_thumb.xml"
     },
     {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/anim-v21_design_bottom_sheet_slide_in.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
@@ -1648,10 +1856,6 @@
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/798fefc778526c166b5a01abf184e7e1/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-v24_ic_history_black_24px.xml.flat",
-        "source": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/res/drawable-v24/ic_history_black_24px.xml"
-    },
-    {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
     },
@@ -1680,12 +1884,24 @@
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/798fefc778526c166b5a01abf184e7e1/res/drawable/common_google_signin_btn_text_dark_normal.xml"
     },
     {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_account_circle_black_24dp.png.flat",
+        "source": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_account_circle_black_24dp.png"
+    },
+    {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl_light.png"
     },
     {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_design_ic_visibility_off.png.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/drawable-mdpi-v4/design_ic_visibility_off.png"
+    },
+    {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable_abc_btn_borderless_material.xml.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_faq_investor.xml.flat",
+        "source": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/res/layout/faq_investor.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_48dp.png.flat",
@@ -1701,7 +1917,7 @@
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/layout_notification_template_big_media.xml.flat",
-        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/3e57a5ea7d33eddcc28789ddaf1c6449/res/layout/notification_template_big_media.xml"
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/fe846eecce9eaa3c468bfebb5e541054/res/layout/notification_template_big_media.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
@@ -1764,20 +1980,28 @@
         "source": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/res/layout/login.xml"
     },
     {
-        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
-        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png"
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/color_design_error.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/color/design_error.xml"
     },
     {
-        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-v24_ic_account_circle_black_24dp.xml.flat",
-        "source": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/res/drawable-v24/ic_account_circle_black_24dp.xml"
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/anim_abc_tooltip_exit.xml.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/anim/abc_tooltip_exit.xml"
     },
     {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_input_black_24dp.png.flat",
+        "source": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_input_black_24dp.png"
+    },
+    {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/font_athitiextralight.ttf.flat",
         "source": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/res/font/athitiextralight.ttf"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable_design_snackbar_background.xml.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/drawable/design_snackbar_background.xml"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
@@ -1798,6 +2022,10 @@
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable-xxxhdpi-v4/abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_input_black_24dp.png.flat",
+        "source": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/generated/res/pngs/debug/drawable-ldpi/ic_input_black_24dp.png"
     },
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
@@ -1890,5 +2118,9 @@
     {
         "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable_abc_text_cursor_material.xml.flat",
         "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_design_ic_visibility.png.flat",
+        "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4eaff12bce8d18f3f8da87ab56a651fd/res/drawable-xhdpi-v4/design_ic_visibility.png"
     }
 ]

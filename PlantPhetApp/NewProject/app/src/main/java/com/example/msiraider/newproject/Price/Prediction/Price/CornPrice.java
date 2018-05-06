@@ -25,6 +25,7 @@ public class CornPrice extends AppCompatActivity {
         fetchCornData process3 = new fetchCornData();
         process3.execute();
 
+        cornhomeprice.setText("6.20");
         corn_price3m.setText("6.26");
         corn_price6m.setText("6.20");
         corn_price9m.setText("5.13");

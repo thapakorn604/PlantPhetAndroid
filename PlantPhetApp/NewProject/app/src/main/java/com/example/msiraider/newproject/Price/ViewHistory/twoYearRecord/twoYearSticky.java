@@ -31,18 +31,31 @@ public class twoYearSticky extends AppCompatActivity {
         Cartesian cartesian = AnyChart.column();
 
         List<DataEntry> data = new ArrayList<>();
-        data.add(new ValueDataEntry("ม.ค.", 80540));
-        data.add(new ValueDataEntry("ก.พ.", 94190));
-        data.add(new ValueDataEntry("มี.ค.", 102610));
-        data.add(new ValueDataEntry("เม.ย.", 110430));
-        data.add(new ValueDataEntry("พ.ค.", 128000));
-        data.add(new ValueDataEntry("มิ.ย.", 143760));
-        data.add(new ValueDataEntry("ก.ค.", 170670));
-        data.add(new ValueDataEntry("ส.ค.", 213210));
-        data.add(new ValueDataEntry("ก.ย.", 249980));
-        data.add(new ValueDataEntry("ต.ค.", 249980));
-        data.add(new ValueDataEntry("พ.ย.", 249980));
-        data.add(new ValueDataEntry("ธ.ค.", 249980));
+        data.add(new ValueDataEntry("1-2561", 13685.0));
+        data.add(new ValueDataEntry("12-2560", 12729.0));
+        data.add(new ValueDataEntry("11-2560", 11451.0));
+        data.add(new ValueDataEntry("10-2560", 11530.0));
+        data.add(new ValueDataEntry("9-2560", 11341.0));
+        data.add(new ValueDataEntry("8-2560", 10468.0));
+        data.add(new ValueDataEntry("7-2560", 10094.0));
+        data.add(new ValueDataEntry("6-2560", 9438.0));
+        data.add(new ValueDataEntry("5-2560", 9136.0));
+        data.add(new ValueDataEntry("4-2560", 9091.0));
+        data.add(new ValueDataEntry("3-2560", 9259.0));
+        data.add(new ValueDataEntry("2-2560", 9307.0));
+        data.add(new ValueDataEntry("1-2560", 9242.0));
+        data.add(new ValueDataEntry("12-2559", 8944.0));
+        data.add(new ValueDataEntry("11-2559", 8366.0));
+        data.add(new ValueDataEntry("10-2559", 9516.0));
+        data.add(new ValueDataEntry("9-2559", 10697.0));
+        data.add(new ValueDataEntry("8-2559", 11009.0));
+        data.add(new ValueDataEntry("7-2559", 11130.0));
+        data.add(new ValueDataEntry("6-2559", 11062.0));
+        data.add(new ValueDataEntry("5-2559", 10900.0));
+        data.add(new ValueDataEntry("4-2559", 10588.0));
+        data.add(new ValueDataEntry("3-2559", 10724.0));
+        data.add(new ValueDataEntry("2-2559", 10798.0));
+        data.add(new ValueDataEntry("1-2559", 10547.0));
 
 
         CartesianSeriesColumn column = cartesian.column(data);
@@ -60,7 +73,7 @@ public class twoYearSticky extends AppCompatActivity {
 
         cartesian.getYScale().setMinimum(0d);
 
-        cartesian.getYAxis().getLabels().setFormat("${%Value}{groupsSeparator: }");
+        cartesian.getYAxis().getLabels().setFormat("${%Value}{groupsSeparator: } บาท");
 
         cartesian.getTooltip().setPositionMode(TooltipPositionMode.POINT);
         cartesian.getInteractivity().setHoverMode(HoverMode.BY_X);

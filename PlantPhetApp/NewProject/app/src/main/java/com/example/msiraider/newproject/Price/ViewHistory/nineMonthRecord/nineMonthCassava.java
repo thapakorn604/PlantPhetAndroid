@@ -26,7 +26,7 @@ public class nineMonthCassava extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.rice_price);
+        setContentView(R.layout.nine_month_cassava);
 
         AnyChartView anyChartView = findViewById(R.id.any_chart_view);
 
@@ -52,15 +52,15 @@ public class nineMonthCassava extends AppCompatActivity {
                 .setAnchor(EnumsAnchor.CENTER_BOTTOM)
                 .setOffsetX(0d)
                 .setOffsetY(5d)
-                .setFormat("{%Value}{groupsSeparator: } บาท");
+                .setFormat("{%Value}{groupsSeparator: }");
 
         cartesian.setAnimation(true);
-        cartesian.setTitle("สถิติราคาของมันสำปะหลังย้อนหลัง8เดือน");
+        cartesian.setTitle("สถิติราคาของมันสำปะหลังย้อนหลัง9เดือน");
 
 
         cartesian.getYScale().setMinimum(0d);
 
-        cartesian.getYAxis().getLabels().setFormat("${%Value}{groupsSeparator: }");
+        cartesian.getYAxis().getLabels().setFormat("{%Value}{groupsSeparator: } บาท");
 
         cartesian.getTooltip().setPositionMode(TooltipPositionMode.POINT);
         cartesian.getInteractivity().setHoverMode(HoverMode.BY_X);

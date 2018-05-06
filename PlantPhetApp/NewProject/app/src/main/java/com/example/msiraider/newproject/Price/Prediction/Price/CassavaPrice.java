@@ -26,6 +26,7 @@ public class CassavaPrice extends AppCompatActivity {
         fetchCassavaData process = new fetchCassavaData();
         process.execute();
 
+        cassavahomeprice.setText("1.77");
         cassava_price3m.setText("1.75");
         cassava_price6m.setText("1.78");
         cassava_price9m.setText("1.97");

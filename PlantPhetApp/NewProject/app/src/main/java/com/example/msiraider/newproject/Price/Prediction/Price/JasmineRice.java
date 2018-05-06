@@ -25,6 +25,7 @@ public class JasmineRice extends AppCompatActivity {
         fetchRiceData process1 = new fetchRiceData();
         process1.execute();
 
+        ricehomeprice.setText("14225.90");
         jasmine_price3m.setText("14459.27");
         jasmine_price6m.setText("15862.64");
         jasmine_price9m.setText("16915.30");

@@ -53,17 +53,17 @@ public class nineMonthJasmine extends AppCompatActivity {
                 .setFormat("${%Value}{groupsSeparator: }");
 
         cartesian.setAnimation(true);
-        cartesian.setTitle("สถิติราคาของข้าวหอมมะลิย้อนหลัง8เดือน");
+        cartesian.setTitle("สถิติราคาของข้าวหอมมะลิย้อนหลัง9เดือน");
 
         cartesian.getYScale().setMinimum(0d);
 
-        cartesian.getYAxis().getLabels().setFormat("${%Value}{groupsSeparator: }");
+        cartesian.getYAxis().getLabels().setFormat("${%Value}{groupsSeparator: } บาท");
 
         cartesian.getTooltip().setPositionMode(TooltipPositionMode.POINT);
         cartesian.getInteractivity().setHoverMode(HoverMode.BY_X);
 
-        cartesian.getXAxis().setTitle("Price");
-        cartesian.getYAxis().setTitle("Month");
+        cartesian.getXAxis().setTitle("เดือน");
+        cartesian.getYAxis().setTitle("ราคา");
 
         anyChartView.setChart(cartesian);
     }

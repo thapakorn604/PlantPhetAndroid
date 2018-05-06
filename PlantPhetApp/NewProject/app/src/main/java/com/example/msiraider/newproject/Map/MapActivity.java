@@ -110,12 +110,12 @@ public class MapActivity extends AppCompatActivity implements GoogleApiClient.Co
                         }
                     }
                     if (somePermissionWasDenied) {
-                        Toast.makeText(this, "Cant load maps without all the permissions granted", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(this, "ไม่สามารถโหลดแผนที่ได้เนื่องจากคำอนุญาตเข้าถึงข้อมูลที่จำเป็นถูกปฏิเสธ", Toast.LENGTH_SHORT).show();
                     } else {
                         setupMap();
                     }
                 } else {
-                    Toast.makeText(this, "Cant load maps without all the permissions granted", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "ไม่สามารถโหลดแผนที่ได้เนื่องจากคำอนุญาตเข้าถึงข้อมูลที่จำเป็นถูกปฏิเสธ", Toast.LENGTH_SHORT).show();
                 }
                 return;
             }

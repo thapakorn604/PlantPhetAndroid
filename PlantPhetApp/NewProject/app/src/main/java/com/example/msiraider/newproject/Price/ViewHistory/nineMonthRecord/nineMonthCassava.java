@@ -33,14 +33,16 @@ public class nineMonthCassava extends AppCompatActivity {
         Cartesian cartesian = AnyChart.column();
 
         List<DataEntry> data = new ArrayList<>();
-        data.add(new ValueDataEntry("1-2561",1.98));
-        data.add(new ValueDataEntry("12-2560",2.07));
-        data.add(new ValueDataEntry("11-2560",1.72));
-        data.add(new ValueDataEntry("10-2560",1.41));
-        data.add(new ValueDataEntry("9-2560",1.34));
-        data.add(new ValueDataEntry("8-2560",1.22));
-        data.add(new ValueDataEntry("7-2560",1.21));
-        data.add(new ValueDataEntry("6-2560",1.17));
+
+        data.add(new ValueDataEntry("1-2561", 1.98));
+        data.add(new ValueDataEntry("12-2560", 2.07));
+        data.add(new ValueDataEntry("11-2560", 1.72));
+        data.add(new ValueDataEntry("10-2560", 1.41));
+        data.add(new ValueDataEntry("9-2560", 1.34));
+        data.add(new ValueDataEntry("8-2560", 1.22));
+        data.add(new ValueDataEntry("7-2560", 1.21));
+        data.add(new ValueDataEntry("6-2560", 1.17));
+
 
         CartesianSeriesColumn column = cartesian.column(data);
 
@@ -50,10 +52,11 @@ public class nineMonthCassava extends AppCompatActivity {
                 .setAnchor(EnumsAnchor.CENTER_BOTTOM)
                 .setOffsetX(0d)
                 .setOffsetY(5d)
-                .setFormat("${%Value}{groupsSeparator: }");
+                .setFormat("{%Value}{groupsSeparator: } บาท");
 
         cartesian.setAnimation(true);
         cartesian.setTitle("สถิติราคาของมันสำปะหลังย้อนหลัง8เดือน");
+
 
         cartesian.getYScale().setMinimum(0d);
 
@@ -62,8 +65,8 @@ public class nineMonthCassava extends AppCompatActivity {
         cartesian.getTooltip().setPositionMode(TooltipPositionMode.POINT);
         cartesian.getInteractivity().setHoverMode(HoverMode.BY_X);
 
-        cartesian.getXAxis().setTitle("Price");
-        cartesian.getYAxis().setTitle("Month");
+        cartesian.getXAxis().setTitle("เดือน");
+        cartesian.getYAxis().setTitle("ราคา");
 
         anyChartView.setChart(cartesian);
     }

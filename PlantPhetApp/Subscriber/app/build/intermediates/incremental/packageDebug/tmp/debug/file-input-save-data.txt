@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Sat May 05 17:45:35 ICT 2018
+1.base=/Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/transforms/dexMerger/debug/26
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=classes.dex
+0.set=DEX
+0.base=/Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/transforms/dexMerger/debug/27
+1.path=classes.dex

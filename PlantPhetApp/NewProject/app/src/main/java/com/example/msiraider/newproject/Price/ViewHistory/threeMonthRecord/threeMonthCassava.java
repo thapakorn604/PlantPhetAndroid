@@ -37,6 +37,7 @@ public class threeMonthCassava extends AppCompatActivity {
         data.add(new ValueDataEntry("11-2560",1.72));
 
 
+
         CartesianSeriesColumn column = cartesian.column(data);
 
         column.getTooltip()
@@ -45,11 +46,10 @@ public class threeMonthCassava extends AppCompatActivity {
                 .setAnchor(EnumsAnchor.CENTER_BOTTOM)
                 .setOffsetX(0d)
                 .setOffsetY(5d)
-                .setFormat("${%Value}{groupsSeparator: }");
+                .setFormat("{%Value}{groupsSeparator: } บาท");
 
-        cartesian.setAnimation(true);
-        cartesian.setTitle("Rice_Price_Chart");
 
+        cartesian.setTitle("ราคาข้าวโพด");
         cartesian.getYScale().setMinimum(0d);
 
         cartesian.getYAxis().getLabels().setFormat("${%Value}{groupsSeparator: }");
@@ -57,8 +57,8 @@ public class threeMonthCassava extends AppCompatActivity {
         cartesian.getTooltip().setPositionMode(TooltipPositionMode.POINT);
         cartesian.getInteractivity().setHoverMode(HoverMode.BY_X);
 
-        cartesian.getXAxis().setTitle("Price");
-        cartesian.getYAxis().setTitle("Month");
+        cartesian.getXAxis().setTitle("เดือน");
+        cartesian.getYAxis().setTitle("ราคา");
 
         anyChartView.setChart(cartesian);
     }

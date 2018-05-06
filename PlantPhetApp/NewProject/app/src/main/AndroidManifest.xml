@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.msiraider.newproject">
+
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
 
     <application
@@ -45,6 +47,13 @@
         <activity android:name=".Price.ViewHistory.twoYearRecord.twoYearJasmine"></activity>
         <activity android:name=".Price.ViewHistory.twoYearRecord.twoYearCorn"></activity>
         <activity android:name=".Price.ViewHistory.twoYearRecord.twoYearSticky"></activity>
+
+        <activity android:name=".FAQ.FaqHomeActivity"></activity>
+        <activity android:name=".FAQ.UserManualActivity"></activity>
+        <activity android:name=".FAQ.FaqActivity"></activity>
+        <activity android:name=".FAQ.AboutActivity"></activity>
+        <activity android:name=".FAQ.ContactActivity"></activity>
+        <activity android:name=".Register.RegisterActivity"></activity>
 
     </application>
 

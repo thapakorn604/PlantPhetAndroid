@@ -51,7 +51,7 @@ public class nineMonthCorn extends AppCompatActivity {
                 .setAnchor(EnumsAnchor.CENTER_BOTTOM)
                 .setOffsetX(0d)
                 .setOffsetY(5d)
-                .setFormat("${%Value}{groupsSeparator: }");
+                .setFormat("{%Value}{groupsSeparator: } บาท");
 
         cartesian.setAnimation(true);
         cartesian.setTitle("สถิติราคาของข้าวโพดย้อนหลัง8เดือน");
@@ -63,8 +63,8 @@ public class nineMonthCorn extends AppCompatActivity {
         cartesian.getTooltip().setPositionMode(TooltipPositionMode.POINT);
         cartesian.getInteractivity().setHoverMode(HoverMode.BY_X);
 
-        cartesian.getXAxis().setTitle("Price");
-        cartesian.getYAxis().setTitle("Month");
+        cartesian.getXAxis().setTitle("เดือน");
+        cartesian.getYAxis().setTitle("ราคา");
 
         anyChartView.setChart(cartesian);
     }

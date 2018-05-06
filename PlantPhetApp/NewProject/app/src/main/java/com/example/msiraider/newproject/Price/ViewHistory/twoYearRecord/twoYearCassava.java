@@ -68,7 +68,7 @@ public class twoYearCassava extends AppCompatActivity {
                 .setFormat("${%Value}{groupsSeparator: }");
 
         cartesian.setAnimation(true);
-        cartesian.setTitle("Rice_Price_Chart");
+        cartesian.setTitle("สถิติราคาของมันสำปะหลังย้อนหลัง2ปี");
 
         cartesian.getYScale().setMinimum(0d);
 

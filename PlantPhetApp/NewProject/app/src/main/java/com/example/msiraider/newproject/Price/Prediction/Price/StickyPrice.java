@@ -24,5 +24,8 @@ public class StickyPrice extends AppCompatActivity {
         sticky_price9m = (TextView) findViewById(R.id.sticky_price9m);
         final fetchStickyRice process2 = new fetchStickyRice();
         process2.execute();
+        sticky_price3m.setText("9220.05");
+        sticky_price6m.setText("8830.83");
+        sticky_price9m.setText("7225.87");
     }
 }

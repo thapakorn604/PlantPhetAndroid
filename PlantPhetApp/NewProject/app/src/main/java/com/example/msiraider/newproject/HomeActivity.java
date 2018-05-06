@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.example.msiraider.newproject.FAQ.FaqHomeActivity;
 import com.example.msiraider.newproject.Map.MapActivity;
+import com.example.msiraider.newproject.Price.Prediction.PreditionActivity;
 import com.example.msiraider.newproject.Price.ViewHistory.ListRecord.ListRecordCassava;
 import com.example.msiraider.newproject.Price.ViewHistory.RecordActivity;
 import com.example.msiraider.newproject.Price.ViewHistory.threeMonthRecord.threeMonthCassava;
@@ -35,7 +36,7 @@ public class HomeActivity extends AppCompatActivity {
         price.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(HomeActivity.this,threeMonthCassava.class);
+                Intent intent = new Intent(HomeActivity.this,PreditionActivity.class);
                 startActivity(intent);
             }
         });

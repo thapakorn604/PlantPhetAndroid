@@ -54,6 +54,11 @@
         <activity android:name=".FAQ.AboutActivity"></activity>
         <activity android:name=".FAQ.ContactActivity"></activity>
         <activity android:name=".Register.RegisterActivity"></activity>
+        <activity android:name=".Price.Prediction.PreditionActivity"></activity>
+        <activity android:name=".Price.Prediction.Price.CassavaPrice"></activity>
+        <activity android:name=".Price.Prediction.Price.CornPrice"></activity>
+        <activity android:name=".Price.Prediction.Price.JasmineRice"></activity>
+        <activity android:name=".Price.Prediction.Price.StickyPrice"></activity>
 
     </application>
 

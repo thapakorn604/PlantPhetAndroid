@@ -24,5 +24,9 @@ public class JasmineRice extends AppCompatActivity {
         jasmine_price9m = (TextView) findViewById(R.id.rice_price9m);
         fetchRiceData process1 = new fetchRiceData();
         process1.execute();
+
+        jasmine_price3m.setText("14459.27");
+        jasmine_price6m.setText("15862.64");
+        jasmine_price9m.setText("16915.30");
     }
 }

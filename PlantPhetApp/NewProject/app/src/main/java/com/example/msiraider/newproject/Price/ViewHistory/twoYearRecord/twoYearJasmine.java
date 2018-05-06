@@ -69,7 +69,7 @@ public class twoYearJasmine extends AppCompatActivity {
                 .setFormat("${%Value}{groupsSeparator: }");
 
         cartesian.setAnimation(true);
-        cartesian.setTitle("Rice_Price_Chart");
+        cartesian.setTitle("สถิติราคาของข้าวหอมมะลิย้อนหลัง2ปี");
 
         cartesian.getYScale().setMinimum(0d);
 

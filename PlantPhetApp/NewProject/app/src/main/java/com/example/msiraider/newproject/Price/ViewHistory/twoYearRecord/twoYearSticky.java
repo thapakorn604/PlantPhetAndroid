@@ -56,7 +56,7 @@ public class twoYearSticky extends AppCompatActivity {
                 .setFormat("${%Value}{groupsSeparator: } บาท");
 
         cartesian.setAnimation(true);
-        cartesian.setTitle("ราคาข้าวเจ้า");
+        cartesian.setTitle("สถิติราคาของข้าวเหนียวย้อนหลัง2ปี");
 
         cartesian.getYScale().setMinimum(0d);
 

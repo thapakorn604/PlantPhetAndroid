@@ -106,7 +106,7 @@ public class tenYearSticky extends AppCompatActivity {
                 .setFormat("${%Value}{groupsSeparator: }");
 
         cartesian.setAnimation(true);
-        cartesian.setTitle("Rice_Price_Chart");
+        cartesian.setTitle("สถิติราคาของข้าวเหนียวย้อนหลัง5ปี");
 
         cartesian.getYScale().setMinimum(0d);
 

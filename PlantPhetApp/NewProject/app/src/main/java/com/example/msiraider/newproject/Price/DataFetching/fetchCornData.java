@@ -65,7 +65,7 @@ public class fetchCornData extends AsyncTask<Void,Void,Void> {
     @Override
     protected void onPostExecute(Void aVoid) {
         super.onPostExecute(aVoid);
-        PriceActivity.listprice1.setText(cornNew);
+        PriceActivity.corn.setText(cornNew);
     }
 
 }

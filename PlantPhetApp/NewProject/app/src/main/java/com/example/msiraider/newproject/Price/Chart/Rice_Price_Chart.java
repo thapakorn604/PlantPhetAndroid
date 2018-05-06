@@ -26,7 +26,7 @@ public class Rice_Price_Chart extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.rice_price_graph);
+        setContentView(R.layout.rice_price);
 
         AnyChartView anyChartView = findViewById(R.id.any_chart_view);
 

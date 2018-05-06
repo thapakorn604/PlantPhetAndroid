@@ -62,7 +62,7 @@ public class fetchStickyRice extends AsyncTask<Void, Void, Void> {
     @Override
     protected void onPostExecute(Void aVoid) {
         super.onPostExecute(aVoid);
-        PriceActivity.listprice2.setText(stickyriceNew);
+        PriceActivity.sticky.setText(stickyriceNew);
     }
 
 }

@@ -24,34 +24,23 @@ import java.util.Calendar;
  */
 
 public class PriceActivity extends AppCompatActivity {
-    ImageButton top, buttonlist1, buttonlist2, buttonlist3;
-    public static TextView homesubtext1, hometext, homeprice, homesubtext2, text, listprice2, listsubtext3, footer;
-    public static TextView listtext1, listsubtext1, listprice1, listtext2, listsubtext2, listtext3, listprice3;
+//    public static ImageButton top, buttonlist1, buttonlist2, buttonlist3;
+//    public static TextView rice,cassava,corn,sticky;
+    ImageButton top,buttonlist1,buttonlist2,buttonlist3;
 
-
+    public static TextView rice,cassava,corn,sticky;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.price);
-        top = (ImageButton) findViewById(R.id.price);
-        homesubtext1 = (TextView) findViewById(R.id.homesubtext1);
-        hometext = (TextView) findViewById(R.id.hometext);
-        homeprice = (TextView) findViewById(R.id.homeprice);
-        homesubtext2 = (TextView) findViewById(R.id.homesubtext2);
-        text = (TextView) findViewById(R.id.text);
-        buttonlist1 = (ImageButton) findViewById(R.id.buttonlist1);
-//        listtext1 = (TextView) findViewById(R.id.listtext1);
-//        listsubtext1 = (TextView) findViewById(R.id.listsubtext1);
-//        listprice1 = (TextView) findViewById(R.id.listprice1);
-//        buttonlist2 = (ImageButton) findViewById(R.id.buttonlist2);
-//        listtext2 = (TextView) findViewById(R.id.listtext2);
-//        listsubtext2 = (TextView) findViewById(R.id.listsubtext2);
-//        listprice2 = (TextView) findViewById(R.id.listprice2);
-//        buttonlist3 = (ImageButton) findViewById(R.id.buttonlist3);
-//        listtext3 = (TextView) findViewById(R.id.listtext3);
-//        listsubtext3 = (TextView) findViewById(R.id.listsubtext3);
-//        listprice3 = (TextView) findViewById(R.id.listprice3);
-        footer = (TextView) findViewById(R.id.footer);
+         top = (ImageButton) findViewById(R.id.top);
+         buttonlist1 = (ImageButton) findViewById(R.id.buttonlist1);
+         buttonlist2 = (ImageButton) findViewById(R.id.buttonlist2);
+         buttonlist3 = (ImageButton) findViewById(R.id.buttonlist3);
+         rice = (TextView) findViewById(R.id.rice);
+         cassava = (TextView) findViewById(R.id.cassava);
+         corn = (TextView) findViewById(R.id.corn);
+         sticky = (TextView) findViewById(R.id.sticky);
 //        --------------------------Retrieve Data--------------------
         final fetchCassavaData process = new fetchCassavaData();
         process.execute();
@@ -62,9 +51,7 @@ public class PriceActivity extends AppCompatActivity {
         fetchCornData process3 = new fetchCornData();
         process3.execute();
 //        -----------------------------Get Currenttime-----------------
-        String currentTime = String.valueOf(Calendar.getInstance().getTime());
-        currentTime = currentTime.toString();
-        text.setText(currentTime);
+
         buttonlist1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -75,7 +62,7 @@ public class PriceActivity extends AppCompatActivity {
 
             }
         });
-        homeprice.setOnClickListener(new View.OnClickListener() {
+        top.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(PriceActivity.this, Cassava_Price_Chart.class);

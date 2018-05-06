@@ -1,4 +1,4 @@
-package com.example.msiraider.newproject.Price.Chart;
+package com.example.msiraider.newproject.Price.ViewHistory.nineMonthRecord;
 
 
 import android.os.Bundle;
@@ -20,7 +20,7 @@ import com.example.msiraider.newproject.R;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Rice_Price_Chart extends AppCompatActivity {
+public class nineMonthCassava extends AppCompatActivity {
 
     @Override
 
@@ -33,16 +33,14 @@ public class Rice_Price_Chart extends AppCompatActivity {
         Cartesian cartesian = AnyChart.column();
 
         List<DataEntry> data = new ArrayList<>();
-        data.add(new ValueDataEntry("Rouge", 80540));
-        data.add(new ValueDataEntry("Foundation", 94190));
-        data.add(new ValueDataEntry("Mascara", 102610));
-        data.add(new ValueDataEntry("Lip gloss", 110430));
-        data.add(new ValueDataEntry("Lipstick", 128000));
-        data.add(new ValueDataEntry("Nail polish", 143760));
-        data.add(new ValueDataEntry("Eyebrow pencil", 170670));
-        data.add(new ValueDataEntry("Eyeliner", 213210));
-        data.add(new ValueDataEntry("Eyeshadows", 249980));
-
+        data.add(new ValueDataEntry("1-2561",1.98));
+        data.add(new ValueDataEntry("12-2560",2.07));
+        data.add(new ValueDataEntry("11-2560",1.72));
+        data.add(new ValueDataEntry("10-2560",1.41));
+        data.add(new ValueDataEntry("9-2560",1.34));
+        data.add(new ValueDataEntry("8-2560",1.22));
+        data.add(new ValueDataEntry("7-2560",1.21));
+        data.add(new ValueDataEntry("6-2560",1.17));
 
         CartesianSeriesColumn column = cartesian.column(data);
 
@@ -55,7 +53,7 @@ public class Rice_Price_Chart extends AppCompatActivity {
                 .setFormat("${%Value}{groupsSeparator: }");
 
         cartesian.setAnimation(true);
-        cartesian.setTitle("Rice_Price_Chart");
+        cartesian.setTitle("สถิติราคาของมันสำปะหลังย้อนหลัง8เดือน");
 
         cartesian.getYScale().setMinimum(0d);
 

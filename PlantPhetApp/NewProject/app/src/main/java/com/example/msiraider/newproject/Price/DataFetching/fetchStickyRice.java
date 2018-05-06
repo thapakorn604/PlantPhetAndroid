@@ -2,7 +2,7 @@ package com.example.msiraider.newproject.Price.DataFetching;
 
 import android.os.AsyncTask;
 
-import com.example.msiraider.newproject.Price.PriceActivity;
+import com.example.msiraider.newproject.Price.Prediction.Price.StickyPrice;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -29,7 +29,7 @@ public class fetchStickyRice extends AsyncTask<Void, Void, Void> {
     @Override
     protected Void doInBackground(Void... voids) {
         try {
-            URL url = new URL("https://api.myjson.com/bins/1h2phj");
+            URL url = new URL("http://plantphet.ngrok.io/sticky");
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
@@ -62,6 +62,7 @@ public class fetchStickyRice extends AsyncTask<Void, Void, Void> {
     @Override
     protected void onPostExecute(Void aVoid) {
         super.onPostExecute(aVoid);
+        StickyPrice.stickyhomeprice.setText(stickyriceNew);
 
     }
 

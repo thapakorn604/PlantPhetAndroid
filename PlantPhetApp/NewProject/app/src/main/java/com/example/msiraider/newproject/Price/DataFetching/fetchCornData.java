@@ -3,7 +3,7 @@ package com.example.msiraider.newproject.Price.DataFetching;
 import android.os.AsyncTask;
 
 
-import com.example.msiraider.newproject.Price.PriceActivity;
+import com.example.msiraider.newproject.Price.Prediction.Price.CornPrice;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -31,7 +31,7 @@ public class fetchCornData extends AsyncTask<Void,Void,Void> {
     @Override
     protected Void doInBackground(Void... voids) {
         try {
-            URL url = new URL("https://api.myjson.com/bins/kzfzb");
+            URL url = new URL("http://plantphet.ngrok.io/corn");
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
@@ -65,6 +65,7 @@ public class fetchCornData extends AsyncTask<Void,Void,Void> {
     @Override
     protected void onPostExecute(Void aVoid) {
         super.onPostExecute(aVoid);
+        CornPrice.cornhomeprice.setText(cornNew);
 
     }
 

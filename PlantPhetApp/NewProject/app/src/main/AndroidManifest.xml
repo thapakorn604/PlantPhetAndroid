@@ -23,12 +23,29 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Price.PriceActivity"></activity>
-        <activity android:name=".Price.Chart.Cassava_Price_Chart"></activity>
-        <activity android:name=".Price.Chart.Corn_Price_Chart"></activity>
-        <activity android:name=".Price.Chart.Rice_Price_Chart"></activity>
-        <activity android:name=".Price.Chart.StickyRice_Price_Chart"></activity>
+        <activity android:name=".Price.ViewHistory.RecordActivity"></activity>
         <activity android:name=".Map.MapActivity"></activity>
+        <activity android:name=".Price.ViewHistory.ListRecord.ListRecordCassava"></activity>
+        <activity android:name=".Price.ViewHistory.ListRecord.ListRecordCorn"></activity>
+        <activity android:name=".Price.ViewHistory.ListRecord.ListRecordJasmine"></activity>
+        <activity android:name=".Price.ViewHistory.ListRecord.ListRecordSticky"></activity>
+        <activity android:name=".Price.ViewHistory.nineMonthRecord.nineMonthCassava"></activity>
+        <activity android:name=".Price.ViewHistory.nineMonthRecord.nineMonthCorn"></activity>
+        <activity android:name=".Price.ViewHistory.nineMonthRecord.nineMonthJasmine"></activity>
+        <activity android:name=".Price.ViewHistory.nineMonthRecord.nineMonthSticky"></activity>
+        <activity android:name=".Price.ViewHistory.tenYearRecord.tenYearCassava"></activity>
+        <activity android:name=".Price.ViewHistory.tenYearRecord.tenYearCorn"></activity>
+        <activity android:name=".Price.ViewHistory.tenYearRecord.tenYearJasmine"></activity>
+        <activity android:name=".Price.ViewHistory.tenYearRecord.tenYearSticky"></activity>
+        <activity android:name=".Price.ViewHistory.threeMonthRecord.threeMonthCassava"></activity>
+        <activity android:name=".Price.ViewHistory.threeMonthRecord.threeMonthCorn"></activity>
+        <activity android:name=".Price.ViewHistory.threeMonthRecord.threeMonthJasmine"></activity>
+        <activity android:name=".Price.ViewHistory.threeMonthRecord.threeMonthSticky"></activity>
+        <activity android:name=".Price.ViewHistory.twoYearRecord.twoYearCassava"></activity>
+        <activity android:name=".Price.ViewHistory.twoYearRecord.twoYearJasmine"></activity>
+        <activity android:name=".Price.ViewHistory.twoYearRecord.twoYearCorn"></activity>
+        <activity android:name=".Price.ViewHistory.twoYearRecord.twoYearSticky"></activity>
+
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package com.example.msiraider.newproject.Price.Chart;
+package com.example.msiraider.newproject.Price.ViewHistory.twoYearRecord;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -15,34 +15,47 @@ import com.anychart.anychart.TooltipPositionMode;
 import com.anychart.anychart.ValueDataEntry;
 import com.example.msiraider.newproject.R;
 
-
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.List;
 
-public class Corn_Price_Chart extends AppCompatActivity {
+/**
+ * Created by PC on 5/6/2018.
+ */
 
+public class twoYearCassava extends AppCompatActivity {
     @Override
-
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.corn_price_graph);
-
+        setContentView(R.layout.two_year_cassava);
         AnyChartView anyChartView = findViewById(R.id.any_chart_view);
-
         Cartesian cartesian = AnyChart.column();
 
         List<DataEntry> data = new ArrayList<>();
-        data.add(new ValueDataEntry("Rouge", 80540));
-        data.add(new ValueDataEntry("Foundation", 94190));
-        data.add(new ValueDataEntry("Mascara", 102610));
-        data.add(new ValueDataEntry("Lip gloss", 110430));
-        data.add(new ValueDataEntry("Lipstick", 128000));
-        data.add(new ValueDataEntry("Nail polish", 143760));
-        data.add(new ValueDataEntry("Eyebrow pencil", 170670));
-        data.add(new ValueDataEntry("Eyeliner", 213210));
-        data.add(new ValueDataEntry("Eyeshadows", 249980));
-
+        data.add(new ValueDataEntry("1-2561", 1.98));
+        data.add(new ValueDataEntry("12-2560", 2.07));
+        data.add(new ValueDataEntry("11-2560", 1.72));
+        data.add(new ValueDataEntry("10-2560", 1.41));
+        data.add(new ValueDataEntry("9-2560", 1.34));
+        data.add(new ValueDataEntry("8-2560", 1.22));
+        data.add(new ValueDataEntry("7-2560", 1.21));
+        data.add(new ValueDataEntry("6-2560", 1.17));
+        data.add(new ValueDataEntry("5-2560", 1.21));
+        data.add(new ValueDataEntry("4-2560", 1.22));
+        data.add(new ValueDataEntry("3-2560", 1.42));
+        data.add(new ValueDataEntry("2-2560", 1.51));
+        data.add(new ValueDataEntry("1-2560", 1.43));
+        data.add(new ValueDataEntry("12-2559", 1.45));
+        data.add(new ValueDataEntry("11-2559", 1.29));
+        data.add(new ValueDataEntry("10-2559", 1.04));
+        data.add(new ValueDataEntry("9-2559", 1.1));
+        data.add(new ValueDataEntry("8-2559", 1.22));
+        data.add(new ValueDataEntry("7-2559", 1.4));
+        data.add(new ValueDataEntry("6-2559", 1.43));
+        data.add(new ValueDataEntry("5-2559", 1.74));
+        data.add(new ValueDataEntry("4-2559", 1.94));
+        data.add(new ValueDataEntry("3-2559", 1.78));
+        data.add(new ValueDataEntry("2-2559", 1.83));
+        data.add(new ValueDataEntry("1-2559", 1.96));
 
         CartesianSeriesColumn column = cartesian.column(data);
 
@@ -55,7 +68,7 @@ public class Corn_Price_Chart extends AppCompatActivity {
                 .setFormat("${%Value}{groupsSeparator: }");
 
         cartesian.setAnimation(true);
-        cartesian.setTitle("Corn_Price_Chart");
+        cartesian.setTitle("Rice_Price_Chart");
 
         cartesian.getYScale().setMinimum(0d);
 

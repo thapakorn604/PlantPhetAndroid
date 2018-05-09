@@ -61,7 +61,6 @@
         <activity android:name=".Price.Prediction.Price.JasmineRice" android:screenOrientation="locked"></activity>
         <activity android:name=".Price.Prediction.Price.StickyPrice" android:screenOrientation="locked"></activity>
 
-
     </application>
 
 </manifest>

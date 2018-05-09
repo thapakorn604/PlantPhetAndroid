@@ -72,8 +72,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="ที่อยู่"
-        android:fontFamily="@font/athitiregular"
-        android:inputType="text"/>
+        android:fontFamily="@font/athitiregular"/>
 
     <EditText
         android:id="@+id/inputAddress"

@@ -20,6 +20,7 @@ public class RegisterActivity extends AppCompatActivity {
 
         ImageButton call = (ImageButton) findViewById(R.id.call);
         ImageButton email = (ImageButton) findViewById(R.id.email);
+        ImageButton register = (ImageButton) findViewById(R.id.register);
 
 
         call.setOnClickListener(new View.OnClickListener() {
@@ -33,6 +34,14 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 sendEmail();
+            }
+        });
+
+        register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(RegisterActivity.this,RegisFatmer.class);
+                startActivity(intent);
             }
         });
     }

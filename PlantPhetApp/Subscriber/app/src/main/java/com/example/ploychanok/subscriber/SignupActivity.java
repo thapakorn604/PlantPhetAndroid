@@ -67,7 +67,7 @@ public class SignupActivity extends AppCompatActivity {
                 }
 
                 if (TextUtils.isEmpty(password)){
-                    Toast.makeText(getApplicationContext(),"กรุณาระบุรหัส",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"กรุณาระบุข้อมูล",Toast.LENGTH_SHORT).show();
                 }
 
                 if (password.length()<6){

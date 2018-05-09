@@ -6,6 +6,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="เร็วๆนี้"/>
+        android:text="เร็วๆนี้"
+        android:layout_margin="10sp"
+        android:fontFamily="@font/athitiregular"/>
 
 </android.support.constraint.ConstraintLayout>

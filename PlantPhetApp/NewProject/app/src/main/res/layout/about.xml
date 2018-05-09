@@ -29,13 +29,13 @@
                 android:id="@+id/content_aboutme"
                 android:fontFamily="@font/athitiregular"
                 android:layout_width="match_parent"
-                android:layout_height="229dp"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="14sp"
                 android:layout_marginTop="15sp"
                 android:layout_marginRight="14sp"
-                android:text="    PlantPhet Applucation ที่ตอบโจทย์กับเกษตรยุคThailand4.0 ทั้งในด้านการให้ข้อมูลดทางด้านราคาการขายรวมถึงการรวมสถิติของราค,การให้ข้อมูลด้านปัจจัยทางภูมิศาสาตร์สำหรับการเพาะปลูก
-                เพื่อช่วยให้เกษตรวิเคารห์และตัดสนใจการปลูกบนพื้นฐานของข้อมูลที่หน้าเชื่อถือ รวมถึงการเพิ่มชองทางการขายให้กับเกษตรกรการขายผลผลิต
-    "
+                android:text="           Plantphet Application ที่ตอบโจทย์ธุรกิจทางด้านการเกษตร หรือ ผู้ที่ต้องการหาผลผลิตทางด้านการเกษตรที่ตรงจุดและตอบโจทย์กับธุรกิจ เพื่อใช้ประกอบในกระบวนการผลิต หรือ ใช้ในการประกอบกิจการ
+            ช่วยลดระยะเวลาการหาวัตถุดิบและลดต้นทุนที่เกิดขึ้น เพื่อการพัฒนาธุรกิจให้เติบโตอย่างยั่งยืนในยุค Thailand 4.0
+            "
                 android:textSize="18dp" />
 
             <TextView
@@ -44,7 +44,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="18sp"
-                android:layout_marginTop="30sp"
+                android:layout_marginTop="8sp"
                 android:text="Special Thanks"
                 android:textSize="20dp"
                 android:textStyle="bold" />

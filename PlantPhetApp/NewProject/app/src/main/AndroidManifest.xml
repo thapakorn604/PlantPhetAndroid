@@ -54,11 +54,13 @@
         <activity android:name=".FAQ.AboutActivity" android:screenOrientation="locked"></activity>
         <activity android:name=".FAQ.ContactActivity" android:screenOrientation="locked"></activity>
         <activity android:name=".Register.RegisterActivity" android:screenOrientation="locked"></activity>
+        <activity android:name=".Register.RegisFatmer" android:screenOrientation="locked" android:windowSoftInputMode="stateAlwaysHidden"></activity>
         <activity android:name=".Price.Prediction.PreditionActivity" android:screenOrientation="locked"></activity>
         <activity android:name=".Price.Prediction.Price.CassavaPrice" android:screenOrientation="locked"></activity>
         <activity android:name=".Price.Prediction.Price.CornPrice" android:screenOrientation="locked"></activity>
         <activity android:name=".Price.Prediction.Price.JasmineRice" android:screenOrientation="locked"></activity>
         <activity android:name=".Price.Prediction.Price.StickyPrice" android:screenOrientation="locked"></activity>
+
 
     </application>
 

@@ -4,30 +4,7 @@
             "outputFile": "/Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-<<<<<<< HEAD
-                    "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/132fcf5ffb09900c802f26a4ebe069ef/res/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "200"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "2646",
-                        "endLines": "39",
-                        "endColumns": "12",
-                        "endOffsets": "2791"
-                    }
-                },
-                {
-                    "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d6c01879512f6c1c3af7c3442b2d1b5/res/values-v23/values-v23.xml",
-=======
                     "source": "/Users/ploychanok/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/98f136254f916f4089845468b58e3d20/res/values-v23/values-v23.xml",
->>>>>>> 23e7272a52440da0299164cfd4e6ee3798a4890a
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",

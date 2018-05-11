@@ -24,6 +24,7 @@
             android:text="ข้อมูลส่วนตัว"
             android:fontFamily="@font/athitiregular"
             android:layout_marginLeft="20sp"/>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

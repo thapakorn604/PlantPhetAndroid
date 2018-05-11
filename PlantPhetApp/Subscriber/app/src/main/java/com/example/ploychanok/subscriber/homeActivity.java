@@ -5,9 +5,10 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 
+import com.example.ploychanok.subscriber.FAQ.faqActivity;
+import com.example.ploychanok.subscriber.Farmerlist.farmerlistActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
@@ -15,7 +16,7 @@ public class homeActivity extends AppCompatActivity {
 
     private FirebaseAuth auth;
     private FirebaseAuth.AuthStateListener authListener;
-    private ImageButton btnProfile;
+    private ImageButton btnProfile,btnFaq,btnFarmer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +45,24 @@ public class homeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(homeActivity.this,profileActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnFaq = (ImageButton) findViewById(R.id.faq);
+        btnFaq.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(homeActivity.this,faqActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnFarmer = (ImageButton) findViewById(R.id.list_farmer);
+        btnFarmer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(homeActivity.this,farmerlistActivity.class);
                 startActivity(intent);
             }
         });

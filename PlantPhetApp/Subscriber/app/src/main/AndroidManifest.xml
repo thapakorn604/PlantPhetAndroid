@@ -18,10 +18,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".homeActivity"></activity>
-        <activity android:name=".profileActivity"></activity>
-        <activity android:name=".SignupActivity"></activity>
-        <activity android:name=".homeActivity"></activity>
+        <activity android:name=".homeActivity" android:screenOrientation="locked"></activity>
+        <activity android:name=".profileActivity" android:screenOrientation="locked"></activity>
+        <activity android:name=".SignupActivity" android:screenOrientation="locked"></activity>
+        <activity android:name=".FAQ.faqActivity" android:screenOrientation="locked"></activity>
+        <activity android:name=".FAQ.aboutActivity" android:screenOrientation="locked"></activity>
+        <activity android:name=".FAQ.faqInvestorActivity" android:screenOrientation="locked"></activity>
+        <activity android:name=".FAQ.contactActivity" android:screenOrientation="locked"></activity>
+        <activity android:name=".FAQ.manualActivity" android:screenOrientation="locked"></activity>
     </application>
 
 </manifest>

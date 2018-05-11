@@ -41,7 +41,7 @@
             android:orientation="vertical">
 
             <ImageButton
-                android:id="@+id/price"
+                android:id="@+id/map"
                 android:layout_width="130dp"
                 android:layout_height="130dp"
                 android:layout_marginTop="15dp"
@@ -80,7 +80,7 @@
             android:orientation="vertical">
 
             <ImageButton
-                android:id="@+id/map"
+                android:id="@+id/list_farmer"
                 android:layout_width="130dp"
                 android:layout_height="130dp"
                 android:layout_marginTop="15dp"
@@ -98,7 +98,7 @@
                 android:layout_gravity="center_horizontal"/>
 
             <ImageButton
-                android:id="@+id/fqa"
+                android:id="@+id/faq"
                 android:layout_width="130dp"
                 android:layout_height="130dp"
                 android:background="@drawable/ic_chat_2"

@@ -36,10 +36,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.ploychanok.subscriber.homeActivity" />
-        <activity android:name="com.example.ploychanok.subscriber.profileActivity" />
-        <activity android:name="com.example.ploychanok.subscriber.SignupActivity" />
-        <activity android:name="com.example.ploychanok.subscriber.homeActivity" />
+        <activity
+            android:name="com.example.ploychanok.subscriber.homeActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name="com.example.ploychanok.subscriber.profileActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name="com.example.ploychanok.subscriber.SignupActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name="com.example.ploychanok.subscriber.FAQ.faqActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name="com.example.ploychanok.subscriber.FAQ.aboutActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name="com.example.ploychanok.subscriber.FAQ.faqInvestorActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name="com.example.ploychanok.subscriber.FAQ.contactActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name="com.example.ploychanok.subscriber.FAQ.manualActivity"
+            android:screenOrientation="locked" />
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
             android:excludeFromRecents="true"

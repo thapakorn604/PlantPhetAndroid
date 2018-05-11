@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:2:1-27:12
+ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:2:1-31:12
 MERGED from [com.android.support:design:27.1.1] /Users/ploychanok/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/59beb5b0f3cde27c12bd5d364585ef00/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/ploychanok/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/98f136254f916f4089845468b58e3d20/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/ploychanok/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/8c2d354d1bc56fcaeb424882a26b00a1/AndroidManifest.xml:2:1-11:12
@@ -39,20 +39,20 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/ploychanok/.gradle/c
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /Users/ploychanok/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/8b3d40fbaa234be5494c71053383678d/AndroidManifest.xml:17:1-24:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/ploychanok/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/77dd1f0ccc1b2faeead7a2a49b797c21/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /Users/ploychanok/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/1aa40e5bcf396cb36bf2faae14af66d2/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:2:1-31:12
 	package
 		ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:3:5-48
 		INJECTED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:2:1-27:12
+		ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:2:1-31:12
 		INJECTED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:2:1-27:12
+		ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:2:1-31:12
 		INJECTED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:2:11-69
@@ -69,7 +69,7 @@ MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/ploychanok/.gradle/
 	android:name
 		ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:7:5-25:19
+ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:7:5-29:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/ploychanok/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/8c2d354d1bc56fcaeb424882a26b00a1/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/ploychanok/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/8c2d354d1bc56fcaeb424882a26b00a1/AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-core:15.0.2] /Users/ploychanok/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.2.aar/ea8674ab9330033b68d6dcb9a3cfd2e3/AndroidManifest.xml:7:5-20
@@ -131,17 +131,53 @@ ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/
 	android:name
 		ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:18:27-74
 activity#com.example.ploychanok.subscriber.homeActivity
-ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:21:9-59
+ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:21:9-94
+	android:screenOrientation
+		ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:21:48-82
 	android:name
 		ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:21:19-47
 activity#com.example.ploychanok.subscriber.profileActivity
-ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:22:9-62
+ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:22:9-97
+	android:screenOrientation
+		ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:22:51-85
 	android:name
 		ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:22:19-50
 activity#com.example.ploychanok.subscriber.SignupActivity
-ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:23:9-61
+ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:23:9-96
+	android:screenOrientation
+		ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:23:50-84
 	android:name
 		ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:23:19-49
+activity#com.example.ploychanok.subscriber.FAQ.faqActivity
+ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:24:9-97
+	android:screenOrientation
+		ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:24:51-85
+	android:name
+		ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:24:19-50
+activity#com.example.ploychanok.subscriber.FAQ.aboutActivity
+ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:25:9-99
+	android:screenOrientation
+		ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:25:53-87
+	android:name
+		ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:25:19-52
+activity#com.example.ploychanok.subscriber.FAQ.faqInvestorActivity
+ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:26:9-105
+	android:screenOrientation
+		ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:26:59-93
+	android:name
+		ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:26:19-58
+activity#com.example.ploychanok.subscriber.FAQ.contactActivity
+ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:27:9-101
+	android:screenOrientation
+		ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:27:55-89
+	android:name
+		ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:27:19-54
+activity#com.example.ploychanok.subscriber.FAQ.manualActivity
+ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:28:9-100
+	android:screenOrientation
+		ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:28:54-88
+	android:name
+		ADDED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml:28:19-53
 uses-sdk
 INJECTED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/AndroidManifest.xml

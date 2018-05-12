@@ -6,7 +6,7 @@
     density="420dpi"
     format="10"
     plugin-version="3.1.2"
-    timestamp="1526057703918"
+    timestamp="1526058433219"
     token="3099161425157164207"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -62,7 +62,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1526057703918"
+        timestamp="1526058433219"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/split-apk/debug/slices/slice_9.apk"

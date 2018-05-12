@@ -26,6 +26,7 @@
         <activity android:name=".FAQ.faqInvestorActivity" android:screenOrientation="locked"></activity>
         <activity android:name=".FAQ.contactActivity" android:screenOrientation="locked"></activity>
         <activity android:name=".FAQ.manualActivity" android:screenOrientation="locked"></activity>
+        <activity android:name=".Farmerlist.farmerlistActivity" android:screenOrientation="locked"></activity>
     </application>
 
 </manifest>

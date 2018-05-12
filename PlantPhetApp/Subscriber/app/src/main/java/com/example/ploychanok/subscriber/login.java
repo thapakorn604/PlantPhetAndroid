@@ -61,12 +61,12 @@ public class login extends AppCompatActivity {
                 final String password = inputPassword.getText().toString();
 
                 if (TextUtils.isEmpty(email)) {
-                    Toast.makeText(getApplicationContext(), "กรุณาใส่ E-mail ที่ลงทะเบียน", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "กรุณาใส่อีเมลที่ทะเบียน", Toast.LENGTH_SHORT).show();
                     return;
                 }
 
                 if (TextUtils.isEmpty(password)) {
-                    Toast.makeText(getApplicationContext(), "กรุณาใส่รหัสผ่านของบัญชี", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "กรุณาใส่รหัสผ่านบัญชี", Toast.LENGTH_SHORT).show();
                     return;
                 }
 

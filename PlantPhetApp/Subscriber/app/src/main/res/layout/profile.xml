@@ -24,34 +24,97 @@
             android:text="ข้อมูลส่วนตัว"
             android:fontFamily="@font/athitiregular"
             android:layout_marginLeft="20sp"/>
+
         <TextView
+            android:id="@+id/firstname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/athitiregular"
             android:text="ชื่อ"
             android:textStyle="bold"
             android:layout_marginLeft="20sp"/>
+
         <TextView
+            android:id="@+id/lastname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/athitiregular"
             android:text="นามสกุล"
             android:textStyle="bold"
             android:layout_marginLeft="20sp"/>
+
         <TextView
+            android:id="@+id/gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/athitiregular"
+            android:text="เพศ"
+            android:textStyle="bold"
+            android:layout_marginLeft="20sp"/>
+
+        <TextView
+            android:id="@+id/email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/athitiregular"
             android:text="อีเมล"
             android:textStyle="bold"
             android:layout_marginLeft="20sp"/>
+
         <TextView
+            android:id="@+id/phone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/athitiregular"
             android:text="เบอร์โทรศัพท์"
             android:textStyle="bold"
             android:layout_marginLeft="20sp"/>
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/athitiregular"
+            android:text="ที่อยู่"
+            android:textStyle="bold"
+            android:layout_marginLeft="20sp"/>
+
+        <TextView
+            android:id="@+id/company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/athitiregular"
+            android:text="ชื่อบริษัท"
+            android:textStyle="bold"
+            android:layout_marginLeft="20sp"/>
+
+        <TextView
+            android:id="@+id/business"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/athitiregular"
+            android:text="รูปแบบธุรกิจ"
+            android:textStyle="bold"
+            android:layout_marginLeft="20sp"/>
+
+        <TextView
+            android:id="@+id/area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/athitiregular"
+            android:text="พื้นที่เป้าหมาย"
+            android:textStyle="bold"
+            android:layout_marginLeft="20sp"/>
+
+        <TextView
+            android:id="@+id/item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/athitiregular"
+            android:text="สินค้าที่สนใจ"
+            android:textStyle="bold"
+            android:layout_marginLeft="20sp"/>
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

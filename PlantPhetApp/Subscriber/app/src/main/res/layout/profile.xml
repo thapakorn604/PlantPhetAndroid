@@ -30,7 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/athitiregular"
-            android:text="ชื่อ"
+            android:text="ชื่อ : วิลเฟร็ด"
             android:textStyle="bold"
             android:layout_marginLeft="20sp"/>
 
@@ -39,7 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/athitiregular"
-            android:text="นามสกุล"
+            android:text="นามสกุล : โบนี"
             android:textStyle="bold"
             android:layout_marginLeft="20sp"/>
 
@@ -48,7 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/athitiregular"
-            android:text="เพศ"
+            android:text="เพศ : ชาย"
             android:textStyle="bold"
             android:layout_marginLeft="20sp"/>
 
@@ -57,7 +57,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/athitiregular"
-            android:text="อีเมล"
+            android:text="อีเมล : wilfred.bony@gmail.com"
             android:textStyle="bold"
             android:layout_marginLeft="20sp"/>
 
@@ -66,7 +66,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/athitiregular"
-            android:text="เบอร์โทรศัพท์"
+            android:text="เบอร์โทรศัพท์ : 0891902773"
+            android:textStyle="bold"
+            android:layout_marginLeft="20sp"/>
+
+        <TextView
+            android:id="@+id/education"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/athitiregular"
+            android:text="การศึกษา : ปริญญาโท"
             android:textStyle="bold"
             android:layout_marginLeft="20sp"/>
 
@@ -75,7 +84,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/athitiregular"
-            android:text="ที่อยู่"
+            android:text="ที่อยู่ : 99/1-2 หมู่ 14 ซอยบ้านใหม่หลังมอ ตำบลสุเทพ อำเภอเมือง จังหวัดเชียงใหม่ 50200"
             android:textStyle="bold"
             android:layout_marginLeft="20sp"/>
 
@@ -84,7 +93,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/athitiregular"
-            android:text="ชื่อบริษัท"
+            android:text="ชื่อบริษัท : ศรีสยามโลจิสติกส์"
             android:textStyle="bold"
             android:layout_marginLeft="20sp"/>
 
@@ -93,7 +102,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/athitiregular"
-            android:text="รูปแบบธุรกิจ"
+            android:text="รูปแบบธุรกิจ : ส่งออกผลผลิตทางการเกษตร"
             android:textStyle="bold"
             android:layout_marginLeft="20sp"/>
 
@@ -102,7 +111,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/athitiregular"
-            android:text="พื้นที่เป้าหมาย"
+            android:text="พื้นที่เป้าหมาย : ภาคเหนือ"
             android:textStyle="bold"
             android:layout_marginLeft="20sp"/>
 
@@ -111,7 +120,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/athitiregular"
-            android:text="สินค้าที่สนใจ"
+            android:text="สินค้าที่สนใจ : ข้าวเจ้า, ข้าวเหนียว"
             android:textStyle="bold"
             android:layout_marginLeft="20sp"/>
 

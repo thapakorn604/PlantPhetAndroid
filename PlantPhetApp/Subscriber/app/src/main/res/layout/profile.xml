@@ -29,28 +29,28 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/athitiregular"
-            android:text="ชื่อ"
+            android:text="ชื่อ สมรักษ์"
             android:textStyle="bold"
             android:layout_marginLeft="20sp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/athitiregular"
-            android:text="นามสกุล"
+            android:text="นามสกุล ธนารักษ์"
             android:textStyle="bold"
             android:layout_marginLeft="20sp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/athitiregular"
-            android:text="อีเมล"
+            android:text="อีเมล somrak_thana@gmail.com"
             android:textStyle="bold"
             android:layout_marginLeft="20sp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/athitiregular"
-            android:text="เบอร์โทรศัพท์"
+            android:text="เบอร์โทรศัพท์ 067-887-1312"
             android:textStyle="bold"
             android:layout_marginLeft="20sp"/>
 

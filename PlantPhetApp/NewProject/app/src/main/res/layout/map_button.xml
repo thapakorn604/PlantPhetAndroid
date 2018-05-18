@@ -12,11 +12,10 @@
             android:layout_height="match_parent"
             android:theme="@style/AppTheme.AppBarOverlay"
             android:orientation="vertical">
-
-
         </LinearLayout>
 
         <include layout="@layout/content_main" />
+
 
     </android.support.design.widget.CoordinatorLayout>
 

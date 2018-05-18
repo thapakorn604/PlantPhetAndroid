@@ -3,6 +3,9 @@
     package="com.example.ploychanok.subscriber">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"  />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -27,6 +30,9 @@
         <activity android:name=".FAQ.contactActivity" android:screenOrientation="locked"></activity>
         <activity android:name=".FAQ.manualActivity" android:screenOrientation="locked"></activity>
         <activity android:name=".Farmerlist.farmerlistActivity" android:screenOrientation="locked"></activity>
+        <activity android:name=".Farmerlist.FarmerInfoActivity" android:screenOrientation="locked"></activity>
+        <activity android:name=".Map.MapActivity" android:screenOrientation="locked"></activity>
+        <activity android:name=".Farmerlist.MapInfoActivity" android:screenOrientation="locked"></activity>
     </application>
 
 </manifest>

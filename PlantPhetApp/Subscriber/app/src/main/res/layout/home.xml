@@ -44,11 +44,10 @@
                 android:id="@+id/map"
                 android:layout_width="130dp"
                 android:layout_height="130dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginRight="15dp"
                 android:layout_marginLeft="15dp"
-                android:background="@drawable/ic_map"
-                />
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/ic_map" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

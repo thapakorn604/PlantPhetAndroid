@@ -9,6 +9,7 @@ import android.widget.ImageButton;
 
 import com.example.ploychanok.subscriber.FAQ.faqActivity;
 import com.example.ploychanok.subscriber.Farmerlist.farmerlistActivity;
+import com.example.ploychanok.subscriber.Map.MapActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
@@ -16,7 +17,7 @@ public class homeActivity extends AppCompatActivity {
 
     private FirebaseAuth auth;
     private FirebaseAuth.AuthStateListener authListener;
-    private ImageButton btnProfile,btnFaq,btnFarmer;
+    private ImageButton btnProfile,btnFaq,btnFarmer,btnMap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,6 +64,15 @@ public class homeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(homeActivity.this,farmerlistActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnMap = (ImageButton)findViewById(R.id.map);
+        btnMap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(homeActivity.this,MapActivity.class);
                 startActivity(intent);
             }
         });

@@ -60,6 +60,8 @@
         <activity android:name=".Price.Prediction.Price.CornPrice" android:screenOrientation="locked"></activity>
         <activity android:name=".Price.Prediction.Price.JasmineRice" android:screenOrientation="locked"></activity>
         <activity android:name=".Price.Prediction.Price.StickyPrice" android:screenOrientation="locked"></activity>
+        <activity android:name=".Map.MapMenuActivity" android:screenOrientation="locked"></activity>
+
 
     </application>
 

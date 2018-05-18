@@ -1,4 +1,4 @@
-#Sat May 12 15:25:06 ICT 2018
-base.0=/Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/transforms/dexMerger/debug/74
+#Sat May 19 05:40:27 ICT 2018
+base.0=/Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/transforms/dexMerger/debug/159
 path.0=classes.dex
 renamed.0=classes.dex

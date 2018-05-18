@@ -1,6 +1,10 @@
 package com.example.msiraider.newproject.Map;
 
 import android.Manifest;
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.os.Bundle;
@@ -13,6 +17,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -55,6 +60,7 @@ public class MapActivity extends AppCompatActivity implements GoogleApiClient.Co
         }
 
         checkPermissionsState();
+        
     }
 
     private void checkPermissionsState() {
@@ -84,7 +90,6 @@ public class MapActivity extends AppCompatActivity implements GoogleApiClient.Co
                 wifiStatePermissionCheck == PackageManager.PERMISSION_GRANTED) {
 
             setupMap();
-
         } else {
             ActivityCompat.requestPermissions(this,
                     new String[]{
@@ -135,11 +140,6 @@ public class MapActivity extends AppCompatActivity implements GoogleApiClient.Co
         oMapLocationOverlay.enableFollowLocation();
         oMapLocationOverlay.enableMyLocation();
         oMapLocationOverlay.enableFollowLocation();
-
-        CompassOverlay compassOverlay = new CompassOverlay(this, mapView);
-        compassOverlay.enableCompass();
-        mapView.getOverlays().add(compassOverlay);
-
         mapView.setMapListener(new DelayedMapListener(new MapListener() {
             public boolean onZoom(final ZoomEvent e) {
                 MapView mapView = (MapView) findViewById(R.id.mapview);
@@ -151,8 +151,8 @@ public class MapActivity extends AppCompatActivity implements GoogleApiClient.Co
                 String longitudeFormattedStr = longitudeStr.substring(0, Math.min(longitudeStr.length(), 7));
 
                 Log.i("zoom", "" + mapView.getMapCenter().getLatitude() + ", " + mapView.getMapCenter().getLongitude());
-                TextView latLongTv = (TextView) findViewById(R.id.textView);
-                latLongTv.setText("" + latitudeFormattedStr + ", " + longitudeFormattedStr);
+
+
                 return true;
             }
 
@@ -166,8 +166,8 @@ public class MapActivity extends AppCompatActivity implements GoogleApiClient.Co
                 String longitudeFormattedStr = longitudeStr.substring(0, Math.min(longitudeStr.length(), 7));
 
                 Log.i("scroll", "" + mapView.getMapCenter().getLatitude() + ", " + mapView.getMapCenter().getLongitude());
-                TextView latLongTv = (TextView) findViewById(R.id.textView);
-                latLongTv.setText("" + latitudeFormattedStr + ", " + longitudeFormattedStr);
+
+
                 return true;
             }
         }, 1000));
@@ -209,17 +209,8 @@ public class MapActivity extends AppCompatActivity implements GoogleApiClient.Co
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
 
     }
-    public void addMarker(GeoPoint startPoint){
-        Marker marker = new Marker(mapView);
-        marker.setPosition(startPoint);
-        marker.setAnchor(Marker.ANCHOR_CENTER,Marker.ANCHOR_BOTTOM);
-        marker.setIcon(getResources().getDrawable(R.drawable.ic_placeholder));
-        marker.setTitle("Your Current Location");
-        mapView.getOverlays().add(marker);
-
-
 
 
     }
 
-}
+

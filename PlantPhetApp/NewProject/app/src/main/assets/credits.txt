@@ -21,3 +21,9 @@ https://www.flaticon.com/free-icon/businessman_206853
 https://www.flaticon.com/free-icon/hand-shake_305091
 [Analytics]
 https://www.flaticon.com/free-icon/analytics_262814
+[Corn]
+https://www.flaticon.com/free-icon/corn_836573
+[Rice]
+https://www.flaticon.com/free-icon/rice_616428
+[Potato]
+https://www.flaticon.com/free-icon/potato_579100

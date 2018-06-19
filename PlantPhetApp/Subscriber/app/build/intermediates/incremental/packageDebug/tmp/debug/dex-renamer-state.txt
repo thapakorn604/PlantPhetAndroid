@@ -1,7 +1,13 @@
-#Sat May 05 17:45:35 ICT 2018
-base.0=/Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/transforms/dexMerger/debug/26
+#Wed May 16 22:01:33 ICT 2018
+path.3=classes.dex
+path.2=classes.dex
 path.1=classes.dex
-renamed.1=classes2.dex
 path.0=classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
 renamed.0=classes.dex
-base.1=/Users/ploychanok/Documents/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/transforms/dexMerger/debug/27
+base.3=/Users/piyawasin/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/transforms/dexMerger/debug/14
+base.2=/Users/piyawasin/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/transforms/dexMerger/debug/11
+base.1=/Users/piyawasin/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/transforms/dexMerger/debug/13
+base.0=/Users/piyawasin/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/transforms/dexMerger/debug/12

@@ -39,6 +39,7 @@
         <activity android:name="com.example.ploychanok.subscriber.homeActivity" />
         <activity android:name="com.example.ploychanok.subscriber.profileActivity" />
         <activity android:name="com.example.ploychanok.subscriber.SignupActivity" />
+        <activity android:name="com.example.ploychanok.subscriber.homeActivity" />
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
             android:excludeFromRecents="true"

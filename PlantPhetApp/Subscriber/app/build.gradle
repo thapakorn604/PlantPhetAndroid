@@ -34,7 +34,10 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation 'com.google.firebase:firebase-core:15.0.2'
     implementation 'com.google.firebase:firebase-auth:15.1.0'
+<<<<<<< HEAD
     implementation 'com.google.firebase:firebase-database:15.0.0'
+=======
+>>>>>>> 58e6fd462de33a5285b6a8c1f95c5909bc2e9f53
     implementation 'com.google.firebase:firebase-firestore:16.0.0'
     implementation 'com.android.support:cardview-v7:27.1.1'
     implementation 'com.android.support:design:27.1.1'

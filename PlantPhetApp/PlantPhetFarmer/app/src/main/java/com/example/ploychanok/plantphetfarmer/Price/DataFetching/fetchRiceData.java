@@ -1,8 +1,8 @@
-package com.example.ploychanok.plantphetfarmer.Price.DataFetching;
+package com.example.msiraider.newproject.Price.DataFetching;
 
 import android.os.AsyncTask;
 
-import com.example.ploychanok.plantphetfarmer.Price.PriceActivity;
+import com.example.msiraider.newproject.Price.Prediction.Price.JasmineRice;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -22,15 +22,14 @@ public class fetchRiceData extends AsyncTask<Void, Void, Void> {
     String month = "";
     String year = "";
     Double ricePrice = 0.0;
-    String riceNew = "";
+    public static String riceNew = "";
     public static ArrayList riceList = new ArrayList();
-
 
 
     @Override
     protected Void doInBackground(Void... voids) {
         try {
-            URL url = new URL("https://api.myjson.com/bins/mngh3");
+            URL url = new URL("http://plantphet.ngrok.io/rice");
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
@@ -48,7 +47,7 @@ public class fetchRiceData extends AsyncTask<Void, Void, Void> {
                 riceNew = ricePrice.toString();
                 riceList.add(riceNew);
             }
-            System.out.println("Jasmine rice:"+riceList);
+            System.out.println("Jasmine rice:" + riceList);
 
         } catch (MalformedURLException e) {
             e.printStackTrace();
@@ -64,7 +63,8 @@ public class fetchRiceData extends AsyncTask<Void, Void, Void> {
     @Override
     protected void onPostExecute(Void aVoid) {
         super.onPostExecute(aVoid);
-        PriceActivity.listprice3.setText(riceNew);
+        JasmineRice.ricehomeprice.setText(riceNew);
+
     }
 
 }

@@ -1,8 +1,8 @@
-package com.example.ploychanok.plantphetfarmer.Price.DataFetching;
+package com.example.msiraider.newproject.Price.DataFetching;
 
 import android.os.AsyncTask;
 
-import com.example.ploychanok.plantphetfarmer.Price.PriceActivity;
+import com.example.msiraider.newproject.Price.Prediction.Price.StickyPrice;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -22,14 +22,14 @@ public class fetchStickyRice extends AsyncTask<Void, Void, Void> {
     String month = "";
     String year = "";
     Double stickyricePrice = 0.0;
-    String stickyriceNew = "";
+    public static String stickyriceNew = "";
     public static ArrayList stickyList = new ArrayList();
 
 
     @Override
     protected Void doInBackground(Void... voids) {
         try {
-            URL url = new URL("https://api.myjson.com/bins/1h2phj");
+            URL url = new URL("http://plantphet.ngrok.io/sticky");
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
@@ -62,7 +62,8 @@ public class fetchStickyRice extends AsyncTask<Void, Void, Void> {
     @Override
     protected void onPostExecute(Void aVoid) {
         super.onPostExecute(aVoid);
-        PriceActivity.listprice2.setText(stickyriceNew);
+        StickyPrice.stickyhomeprice.setText(stickyriceNew);
+
     }
 
 }

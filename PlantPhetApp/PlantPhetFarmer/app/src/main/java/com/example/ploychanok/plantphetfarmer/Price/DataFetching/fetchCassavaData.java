@@ -1,8 +1,9 @@
-package com.example.ploychanok.plantphetfarmer.Price.DataFetching;
+package com.example.msiraider.newproject.Price.DataFetching;
 
 import android.os.AsyncTask;
 
-import com.example.ploychanok.plantphetfarmer.Price.PriceActivity;
+
+import com.example.msiraider.newproject.Price.Prediction.Price.CassavaPrice;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -29,7 +30,7 @@ public class fetchCassavaData extends AsyncTask<Void, Void, Void> {
     @Override
     protected Void doInBackground(Void... voids) {
         try {
-            URL url = new URL("https://api.myjson.com/bins/d6nyf");
+            URL url = new URL("http://plantphet.ngrok.io/cassava");
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
@@ -64,7 +65,8 @@ public class fetchCassavaData extends AsyncTask<Void, Void, Void> {
     @Override
     protected void onPostExecute(Void aVoid) {
         super.onPostExecute(aVoid);
-        PriceActivity.homeprice.setText(cassavaNew);
+        CassavaPrice.cassavahomeprice.setText(cassavaNew);
+
     }
 
 }

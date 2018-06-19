@@ -1,6 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
 <merger version="3"><dataSet config="main"><source path="/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/assets"/><source path="/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/debug/assets"/></dataSet></merger>
-=======
-<merger version="3"><dataSet config="main"><source path="/Users/piyawasin/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/main/assets"/><source path="/Users/piyawasin/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/piyawasin/PlantPhetAndroid/PlantPhetApp/Subscriber/app/src/debug/assets"/></dataSet></merger>
->>>>>>> 58e6fd462de33a5285b6a8c1f95c5909bc2e9f53

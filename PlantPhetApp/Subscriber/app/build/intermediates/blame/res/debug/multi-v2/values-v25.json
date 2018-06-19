@@ -1,17 +1,10 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
             "outputFile": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml",
             "map": [
                 {
                     "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d717493f4977b1ab4cc2da3aa1a4c20d/res/values-v25/values-v25.xml",
-=======
-            "outputFile": "/Users/piyawasin/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml",
-            "map": [
-                {
-                    "source": "/Users/piyawasin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0f1819a74429ab124d728e432b62b54b/res/values-v25/values-v25.xml",
->>>>>>> 58e6fd462de33a5285b6a8c1f95c5909bc2e9f53
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

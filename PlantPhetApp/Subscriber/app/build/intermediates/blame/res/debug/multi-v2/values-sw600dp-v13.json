@@ -1,17 +1,10 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
             "outputFile": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
                     "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/ab744ab43e664c666c6a4a6e5c3c57f1/res/values-sw600dp-v13/values-sw600dp-v13.xml",
-=======
-            "outputFile": "/Users/piyawasin/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
-            "map": [
-                {
-                    "source": "/Users/piyawasin/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/23cb7b11a64b1bfea651c980347c41d4/res/values-sw600dp-v13/values-sw600dp-v13.xml",
->>>>>>> 58e6fd462de33a5285b6a8c1f95c5909bc2e9f53
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -30,11 +23,7 @@
                     }
                 },
                 {
-<<<<<<< HEAD
                     "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d717493f4977b1ab4cc2da3aa1a4c20d/res/values-sw600dp-v13/values-sw600dp-v13.xml",
-=======
-                    "source": "/Users/piyawasin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0f1819a74429ab124d728e432b62b54b/res/values-sw600dp-v13/values-sw600dp-v13.xml",
->>>>>>> 58e6fd462de33a5285b6a8c1f95c5909bc2e9f53
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

@@ -1,7 +1,6 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
             "outputFile": "/Users/thapakorn/Documents/GitHub/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml",
             "map": [
                 {
@@ -23,12 +22,6 @@
                 },
                 {
                     "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/91df7c47c1dfda4f55ea8007f4bacb47/res/values-gu/values.xml",
-=======
-            "outputFile": "/Users/piyawasin/PlantPhetAndroid/PlantPhetApp/Subscriber/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml",
-            "map": [
-                {
-                    "source": "/Users/piyawasin/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/b098b375a56a6a87308bf3358fa73637/res/values-gu/values.xml",
->>>>>>> 58e6fd462de33a5285b6a8c1f95c5909bc2e9f53
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -45,7 +38,6 @@
                     }
                 },
                 {
-<<<<<<< HEAD
                     "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/7e7a85d7cd45cded7d1af5ccf1223ad9/res/values-gu/values-gu.xml",
                     "from": {
                         "startLines": "2",
@@ -64,26 +56,6 @@
                 },
                 {
                     "source": "/Users/thapakorn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d717493f4977b1ab4cc2da3aa1a4c20d/res/values-gu/values-gu.xml",
-=======
-                    "source": "/Users/piyawasin/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/bbc41f4712a504637099a5cf73eb03bc/res/values-gu/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "205",
-                        "endOffsets": "452"
-                    },
-                    "to": {
-                        "startLines": "27",
-                        "startColumns": "4",
-                        "startOffsets": "2997",
-                        "endColumns": "205",
-                        "endOffsets": "3198"
-                    }
-                },
-                {
-                    "source": "/Users/piyawasin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0f1819a74429ab124d728e432b62b54b/res/values-gu/values-gu.xml",
->>>>>>> 58e6fd462de33a5285b6a8c1f95c5909bc2e9f53
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -98,26 +70,6 @@
                         "endColumns": "108,103,106,86,100,122,76,77,79,105,101,96,108,98,109,159,102,79",
                         "endOffsets": "209,313,420,507,608,731,808,886,966,1072,1174,1271,1380,1479,1589,1749,1852,4597"
                     }
-<<<<<<< HEAD
-=======
-                },
-                {
-                    "source": "/Users/piyawasin/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/773253676d4b4c0e6761e013c37452ec/res/values-gu/values-gu.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "38",
-                        "startColumns": "4",
-                        "startOffsets": "4602",
-                        "endColumns": "100",
-                        "endOffsets": "4698"
-                    }
->>>>>>> 58e6fd462de33a5285b6a8c1f95c5909bc2e9f53
                 }
             ]
         }

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MapForPlantphet</string>
+
+    <!--Map Service URL -->
+    <string name="world_cities_service">http://sampleserver6.arcgisonline.com/arcgis/rest/services/SampleWorldCities/MapServer</string>
+    <string name="lfg_rice_flood">http://150.107.31.104:8080/geoserver/</string>
+    <string name="timezone_service">http://sampleserver6.arcgisonline.com/arcgis/rest/services/WorldTimeZones/MapServer</string>
+
+    <!-- Menu Items -->
+    <string name="Cities">เมืองสำคัญ</string>
+    <string name="Continents">แผนที่ทวีป</string>
+    <string name="World">แผนที่โลก</string>
+
+    <!-- Location Access denied -->
+    <string name="location_permission_denied">LocationDisplayManager cannot run because location permission was denied</string>
+</resources>
